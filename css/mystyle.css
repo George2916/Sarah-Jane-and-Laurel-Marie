@@ -1,0 +1,138 @@
+/* color scheme
+
+lilac: #f9d5e5 
+
+very light brown: #eeac99
+
+pink: #e06377
+
+red: #c83349
+
+*/
+
+.navbar-default{
+    background-color: #f9d5e5;
+}
+
+
+
+
+.cover-page-jumbo{
+    background-color: #c83349;
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    color: #f9d5e5;
+}
+
+/* the following gives the jumbrotron square corners, instead of the default rounded corners */
+
+.container .jumbotron{
+  border-radius: 0px;
+}
+
+
+.coverphoto{
+    width: 100%;
+    height: 100%;
+    border: 4px solid #e06377;
+    
+}
+
+/* resize image on cover page */
+.coverphoto img{
+    width: 100%;
+    height: auto; 
+}
+
+#gallery-background{
+    padding: 20px;
+    background-color: #c83349;
+}
+
+
+
+/* center all img in slideshow */
+.carousel-inner img{
+    margin: auto;
+}
+
+/* styling for Miscellaneous Page */
+.color1{
+    background-color: #eeac99;
+    height: 100px;
+    padding-top: 10px;
+}
+
+.color2{
+    background-color: #e06377;
+    height: 100px;
+    padding-top: 10px;
+}
+
+.bigdiv1{
+    background-color: #e06377;
+    height: 200px;
+    padding-top: 10px;
+}
+
+.bigdiv2{
+    background-color: #eeac99;
+    height: 200px;
+    padding-top: 10px;
+}
+
+.last2lines{
+    margin-left: 25px;
+}
+
+
+.family-tree-jumbo{
+    background-color: #f9d5e5;
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+}
+
+
+.space-filler{
+    min-height: 100px;
+}
+
+
+.fourgenerations img{
+    width: 100%;
+    height: auto;
+    transform: rotate(-270deg);
+}
+/* rotate certain photos in the gallery when they are displayed in modal format */
+.gallery-rotate img{
+   transform: rotate(-90deg);
+}
+
+
+
+.item img{
+    width: 1024px;
+    height: 500px;
+}
+
+
+
+
+/* styling for text in the familytree.html doc */
+
+.withtext{
+    text-align: center;
+    border: 2px solid black;
+}
+
+.withsymbol{ 
+    text-align: center;
+}
+
+
+.4generationsphoto.{
+    
+    -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Safari */
+    transform: rotate(90deg);
+}
