@@ -10,12 +10,56 @@ red: #c83349
 
 */
 
+/* STYLING FOR NAV BAR */
+
+/* gives the nav bar square corners, instead of the default rounded corners */
+
+.navbar{
+    border-radius: 0px;
+}
+
+/* changes color of nav bar to lilac */
+
 .navbar-default{
     background-color: #f9d5e5;
 }
 
+/* changes the color of the lettering of Home, Gallery, Slide Show and Misc. to red */
+
+.navbar-default .navbar-collapse .navbar-nav > li > a{
+     color: #c83349;
+}
+
+/* gives the Home, Slide Show and Misc. tabs the color of very light brown when clicked on */
+
+.navbar-default .navbar-nav .active a, 
+.navbar-default .navbar-nav .active a:hover, 
+.navbar-default .navbar-nav .active a:focus {
+    background-color: #eeac99;
+}
+
+/* gives the Gallery tag the color of very light brown when clicked on */
+
+.navbar-default .navbar-nav > .open > a:focus {
+    background-color: #eeac99;
+}
+
+/* changes color and size of the dropdown menu under Gallery */
+
+.dropdown-menu{
+    background-color: #eeac99;
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+}
 
 
+
+
+
+
+
+/* styling for jumbotron on Home page */
 
 .cover-page-jumbo{
     background-color: #c83349;
@@ -24,31 +68,58 @@ red: #c83349
     color: #f9d5e5;
 }
 
+@media only screen and (max-width: 660px) {
+    .cover-page-jumbo h2, h4{
+        font-size: 85%;
+    }
+}
+
 /* the following gives the jumbrotron square corners, instead of the default rounded corners */
 
 .container .jumbotron{
   border-radius: 0px;
 }
 
-
 .coverphoto{
     width: 100%;
     height: 100%;
     border: 4px solid #e06377;
-    
 }
 
-/* resize image on cover page */
+/* resize image on Home  page */
 .coverphoto img{
     width: 100%;
     height: auto; 
 }
+
+/* styling for Gallery pages */
 
 #gallery-background{
     padding: 20px;
     background-color: #c83349;
 }
 
+@media only screen and (max-width: 992px) {
+    .extra-padding {
+        padding-bottom: 20px;
+    }
+}
+   
+/* change the size of the modals for images in the Gallery which are rotated when displayed in modal format */
+.gallery-rotate {
+        height: 620px;
+        width: 600px;
+}
+
+/* rotate certain photos in the Gallery when they are displayed in modal format */
+.gallery-rotate img {
+    -ms-transform: rotate(-90deg); /* IE 9 */
+    -webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */
+    transform: rotate(-90deg);
+    height: 450px;
+    position: absolute;
+    top: 80px;
+}
 
 
 /* center all img in slideshow */
@@ -56,7 +127,8 @@ red: #c83349
     margin: auto;
 }
 
-/* styling for Miscellaneous Page */
+/* STYLING FOR MISCELLANEOUS PAGE */
+
 .color1{
     background-color: #eeac99;
     height: 100px;
@@ -69,23 +141,27 @@ red: #c83349
     padding-top: 10px;
 }
 
-.bigdiv1{
-    background-color: #e06377;
-    height: 200px;
-    padding-top: 10px;
-}
-
-.bigdiv2{
-    background-color: #eeac99;
-    height: 200px;
-    padding-top: 10px;
+.box7, .box8{
+    height: 220px;
 }
 
 .last2lines{
     margin-left: 25px;
 }
-
-
+/* 
+@media only screen and (max-width: 768px) {
+    .box2 {display: none;}
+    .box3 {display: none;}
+    .box4 {background-color: #e06377;}
+    .box6 {display: none;}
+    .box7 {display: none;}
+    .box8 {
+        background-color: #e06377;
+        font-size: 94%;
+        height: 320px;}
+    .last2lines {margin-left: 0px}
+}
+*/
 .family-tree-jumbo{
     background-color: #f9d5e5;
     font-family: 'Permanent Marker', cursive;
@@ -101,11 +177,7 @@ red: #c83349
 .fourgenerations img{
     width: 100%;
     height: auto;
-    transform: rotate(-270deg);
-}
-/* rotate certain photos in the gallery when they are displayed in modal format */
-.gallery-rotate img{
-   transform: rotate(-90deg);
+    transform: rotate(-90deg);
 }
 
 
@@ -130,7 +202,7 @@ red: #c83349
 }
 
 
-.4generationsphoto.{
+.4generationsphoto{
     
     -ms-transform: rotate(90deg); /* IE 9 */
     -webkit-transform: rotate(90deg); /* Safari */
