@@ -1,3 +1,54 @@
+// /* STYLING FOR MISCELLANEOUS PAGE */
+
+function mySetupFunction() {
+    if ($(window).width() <= 768){	
+		$('.box2').hide();
+        $('.box3').hide();
+        $('.box4').css('background-color', '#e06377');
+        $('.box6').hide();
+        $('.box7').hide();
+        $('.box8').css('background-color', '#e06377');
+        $('.box8').css('font-size', '94%');
+        $('.box8').css('height', '200px');
+        
+	}
+    
+    else{
+        
+        $('.box2').show();
+        $('.box3').show();
+        $('.box4').css('background-color', '#eeac99');
+        $('.box6').show();
+        $('.box7').show();
+        $('.box7').css('height', '220px');
+        $('.box8').css({'background-color': '#eeac99', 'font-size': '100%', 'height': '220px'});
+        
+        
+    }
+};
+
+function mySetupFunction2() {
+    if ($(window).width() >= 992){
+        $('.last2lines').css('margin-left', '25px');    
+    }
+
+    else{
+        $('.last2lines').css('margin-left', '0px');
+    }
+                 
+}; 
+
+$(document).ready(mySetupFunction);
+$(window).resize(mySetupFunction);
+
+$(document).ready(mySetupFunction2);
+$(window).resize(mySetupFunction2);
+
+
+
+
+/*
+
 $(window).ready(function(){
 	if ($(window).width() <= 768){	
 		$('.box2').hide();
@@ -34,7 +85,7 @@ $(window).resize(function(){
         $('.last2lines').css('margin-left', '0px');
     }
                  
-});
+});  */
 
 /*
     $(window).resize(function(){
