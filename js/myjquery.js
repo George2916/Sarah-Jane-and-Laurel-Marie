@@ -1,4 +1,4 @@
-$(window).resize(function(){
+$(window).run(function(){
 	if ($(window).width() <= 768){	
 		$('.box2').hide();
         $('.box3').hide();
