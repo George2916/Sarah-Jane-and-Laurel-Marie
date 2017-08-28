@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head> 
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--[if lt IE 9]
+<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+<title>Dynamic Scoring Personality Questionnaire</title>
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/mystyle.css">
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+</head>
+<body>
+    
+    
+<div class="container">
+    <table id="Qborder" border>
+        <tbody>
+                
+            <tr>
+                <th id="heading" colspan=3><h4>Dynamic Scoring Personality Questionnaire<br>Administered August 2013
+                    </h4></th>
+            </tr>
+            
+            <tr id="first-row">
+                <td class="question"></td>
+                
+                <td class="card effect_hover" id="sjButton">
+                    <button type="button" class="btn card_front customBtn">Click here to see</button>
+                    <button type="button" class="btn card_back">Sarah Jane's responses</button>
+                </td>
+                
+                <td class="card effect_hover" id="lmButton">
+                    <button type="button" class="btn card_front customBtn">Click here to see</button>
+                    <button type="button" class="btn card_back">Laurel Marie's responses</button>
+                </td>
+                
+            </tr>
+                        
+            <tr>
+                <td class="question">&nbspWhat is your favorite sport to play?</td>
+                <td id="hiddenSJ-1"></td>
+                <td id="hiddenLM-1"></td>
+            </tr>
+            
+            <tr>
+                <td class="question">&nbspWhat is your favorite sport to watch?</td>
+                <td id="hiddenSJ-2"></td>
+                <td id="hiddenLM-2"></td>
+            </tr>
+            
+            <tr>
+                <td class="question">&nbspWhat is your favorite book?</td>
+                <td id="hiddenSJ-3"></td>
+                <td id="hiddenLM-3"></td>
+            </tr>
+            
+            <tr>
+                <td class="question question4">&nbspWhat movie have you seen the most times (beginning to end)?</td>
+                <td id="hiddenSJ-4"></td>
+                <td id="hiddenLM-4"></td>
+            </tr>
+            
+            <tr>
+                <td class="question question5">&nbspHow far from home will you go to college?<br>
+                &nbspa. less than 50 miles<br>
+                &nbspb. more than 50 miles<br>
+                </td>
+                <td id="hiddenSJ-5"></td>
+                <td id="hiddenLM-5"></td>
+            </tr>
+            
+            <tr>
+                <td class="question question6">&nbspHow old will you be when you first marry?<br>
+                &nbspa. 15-20 y<br>
+                &nbspb. 21-25 y<br>
+                &nbspc. 26-30 y<br>
+                &nbspd. over 30 y<br>
+                </td>
+                <td id="hiddenSJ-6"></td>
+                <td id="hiddenLM-6"></td>
+            </tr>
+            
+            <tr>
+                <td class="question">&nbspHow many children will you have?</td>
+                <td id="hiddenSJ-7"></td>
+                <td id="hiddenLM-7"></td>
+            </tr> 
+            
+            <tr>
+                <td class="question">&nbspWhat field will your career be in?</td>
+                <td id="hiddenSJ-8"></td>
+                <td id="hiddenLM-8"></td>
+            </tr>
+            
+            <tr>
+                <td class="question">&nbspWill you ever practice yoga regularly?</td>
+                <td id="hiddenSJ-9"></td>
+                <td id="hiddenLM-9"></td>
+            </tr>
+            
+            <tr>
+                <td class="question">&nbspWill you ever visit Africa?</td>
+                <td id="hiddenSJ-10"></td>
+                <td id="hiddenLM-10"></td>
+            </tr>
+            
+            <tr>
+                <td class="question">&nbspWill you ever run for office?</td>
+                <td id="hiddenSJ-11"></td>
+                <td id="hiddenLM-11"></td>
+            </tr>
+            
+            <tr>
+                <td class="question question12">&nbspWill you be a registered Democrat, registered Republican or independent?&nbsp</td>
+                <td id="hiddenSJ-12"></td>
+                <td id="hiddenLM-12"></td>
+            </tr>
+            
+            <tr>
+                <td class="question">&nbspWill you ever visit an orphage?</td>
+                <td id="hiddenSJ-13"></td>
+                <td id="hiddenLM-13"></td>
+            </tr>
+            
+            <tr>
+                <td class="question">&nbspHow many tattoos will you have?</td>
+                <td id="hiddenSJ-14"></td>
+                <td id="hiddenLM-14"></td>
+            </tr>
+            
+            <tr>
+                <td class="question question15">&nbspWhat country would you most like to visit?</td>
+                <td id="hiddenSJ-15"></td>
+                <td id="hiddenLM-15"></td>
+            </tr>
+            
+            <tr>
+                <td class="question">&nbspWill you ever trod the boards?</td>
+                <td id="hiddenSJ-16"></td>
+                <td id="hiddenLM-16"></td>
+            </tr>
+            
+            <tr>
+                <td class="question">&nbspWill you ever live in a city?</td>
+                <td id="hiddenSJ-17"></td>
+                <td id="hiddenLM-17"></td>
+            </tr>  
+            
+            <tr>
+                <td class="question">&nbspWill you ever work abroad?</td>
+                <td id="hiddenSJ-18"></td>
+                <td id="hiddenLM-18"></td>
+            </tr>
+            
+            <tr>
+                <td class="question">&nbspWill you ever go parachuting?</td>
+                <td id="hiddenSJ-19"></td>
+                <td id="hiddenLM-19"></td>
+            </tr>
+            
+            <tr>
+                <td class="question">&nbspWill you ever join a chorus?</td>
+                <td id="hiddenSJ-20"></td>
+                <td id="hiddenLM-20"></td>
+            </tr>
+            
+            <tr>
+                <td class="question question21">&nbspRESENT/RESERVE<br>
+                &nbspDo these words<br>
+                &nbspa. have similar meanings?<br>
+                &nbspb. have contradictory meanings?<br>
+                &nbspc. mean neither the same nor the opposite?<br>
+                </td>
+                <td id="hiddenSJ-21"></td>
+                <td id="hiddenLM-21"></td>
+            </tr>
+            
+        </tbody> 
+    </table>
+</div>
+    
+<script src="js/jquery-3.2.0.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/myjquery.js"></script>  
+    
+</body>
+</html>

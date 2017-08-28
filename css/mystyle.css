@@ -10,96 +10,169 @@ red: #c83349
 
 */
 
+/*
+@media only screen and (max-width: 767px){
+    .collapsing,
+    .in {background-color: purple;}
+    .collapsing ul li a:hover, 
+    .in ul li a:hover {color: yellow!important;}
+    
+}
+*/
+
+ 
+/* make the hamburger icon have the background color of red */
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #eeac99;
+}
+
+/*
+.navbar-default .navbar-toggle .icon-bar{
+    background-color: #c83349;
+}
+*/
+
+.navbar-toggle{
+    background-color: #c83349;
+}
+
+    
+    
+#bullet{
+    
+    vertical-align: text-top;
+}
+
 /* STYLING FOR NAV BAR */
 
-/* gives the nav bar square corners, instead of the default rounded corners */
+/* give the nav bar square corners, instead of the default rounded corners */
 
 .navbar{
     border-radius: 0px;
 }
 
-/* changes color of nav bar to lilac */
+/* change color of nav bar to lilac */
 
 .navbar-default{
     background-color: #f9d5e5;
 }
 
-/* changes the color of the lettering of Home, Gallery, Slide Show and Misc. to red */
+/* change the color of the lettering of Home, Slide Show and Misc. to red */
 
 .navbar-default .navbar-collapse .navbar-nav > li > a{
      color: #c83349;
+} 
+
+/* change the color of the lettering of Gallery to red */
+
+.navbar-default .navbar-nav > .open > a, 
+.navbar-default .navbar-nav > .open > a:hover, 
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #c83349;
 }
 
-/* gives the Home, Slide Show and Misc. tabs the color of very light brown when clicked on */
+/* give the Home, Slide Show and Misc. tabs the color of very light brown when clicked on */
 
 .navbar-default .navbar-nav .active a, 
 .navbar-default .navbar-nav .active a:hover, 
 .navbar-default .navbar-nav .active a:focus {
     background-color: #eeac99;
+    color: #c83349;
 }
 
-/* gives the Gallery tag the color of very light brown when clicked on */
+/* give the Gallery tab the color of very light brown when clicked on */
 
 .navbar-default .navbar-nav > .open > a:focus {
     background-color: #eeac99;
 }
 
-/* changes color and size of the dropdown menu under Gallery */
+/* change color and size of the dropdown menu under the Gallery tab */
 
-.dropdown-menu{
+.dropdown-menu {
     background-color: #eeac99;
     padding: 0px;
     border: 0px;
-    margin: 0px;
+    margin: 0px;  
+} 
+
+/* change the color of the text of the dropdown menu under the Gallery tab */
+
+.dropdown-menu > li > a {
+    color: #c83349;
 }
 
 
-
-
-
-
+/* STYLING FOR HOME PAGE */
 
 /* styling for jumbotron on Home page */
 
-.cover-page-jumbo{
+.cover-page-jumbo {
     background-color: #c83349;
     font-family: 'Permanent Marker', cursive;
     text-align: center;
     color: #f9d5e5;
 }
 
+/* styling for certain text in the Japanese translation of the Home page*/
+
+#bullet {
+    vertical-align: middle;
+    letter-spacing: -10px;
+}
+
+#bullet1 {
+    
+    letter-spacing: -10px;
+}
+
+#bullet2 {
+    
+    letter-spacing: -8px;
+}
+
+#bullet3 {
+    vertical-align: middle;
+    letter-spacing: -14px;
+}
 @media only screen and (max-width: 660px) {
-    .cover-page-jumbo h2, h4{
-        font-size: 85%;
+    .cover-page-jumbo h2{
+        font-size: 140%;
+    }
+    
+    .cover-page-jumbo h4{
+        font-size: 90%;
     }
 }
 
-/* the following gives the jumbrotron square corners, instead of the default rounded corners */
+/* give the jumbrotron square corners, instead of the default rounded corners */
 
-.container .jumbotron{
-  border-radius: 0px;
+.container .jumbotron {
+    border-radius: 0px;
 }
 
-.coverphoto{
+.coverphoto {
     width: 100%;
     height: 100%;
     border: 4px solid #e06377;
 }
 
-/* resize image on Home  page */
-.coverphoto img{
+/* resize image in jumbotron */
+.coverphoto img {
     width: 100%;
     height: auto; 
 }
 
-/* styling for Gallery pages */
 
-#gallery-background{
+/* STYLING FOR GALLERY PAGES */
+
+.gallery-background {
     padding: 20px;
     background-color: #c83349;
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 991px) {
     .extra-padding {
         padding-bottom: 20px;
     }
@@ -111,7 +184,7 @@ red: #c83349
         width: 600px;
 }
 
-/* rotate certain photos in the Gallery when they are displayed in modal format */
+/* rotate certain photos in the Gallery -90 degrees when they are displayed in modal format */
 .gallery-rotate img {
     -ms-transform: rotate(-90deg); /* IE 9 */
     -webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */
@@ -121,90 +194,337 @@ red: #c83349
     top: 80px;
 }
 
+.pager li > a {
+    background-color: #f9d5e5;
+    color: #c83349;
+}
+
+
+/* STYLING FOR THE SLIDESHOW PAGES */
+
+/* give pink border to the photos in the slide show */
+.item > img {
+    border: 4px solid #e06377;
+}
 
 /* center all img in slideshow */
-.carousel-inner img{
+.carousel-inner img {
     margin: auto;
 }
 
+/* enlarge certain pictures in the Slideshow to take up the height and width of their container */
+
+.BBBB {
+    width: 100%;
+    height: auto;
+}
+
+/* give the color red to the left and right arrows in the Slideshow */
+
+.carousel-control > span {
+    color: #c83349;
+}
+
+/* make the carousel captions red */
+.carousel-caption {
+    color: #c83349;
+}
+
+/* give the color red to the border of the carousel indicators (the small circles at the bottom of the screen) */
+.carousel-indicators li {
+    border: 1px solid #c83349;
+}
+
+/* give the color red to the small circle on the photo that appears on screen */
+
+.carousel-indicators .active {
+  background-color: #c83349;
+}
+
+/* hide carousel indicators in screen widths below 992px */ 
+
+@media only screen and (max-width: 991px) {
+    .carousel-indicators > li {
+        display: none;
+    }
+    .carousel-caption > h4 {
+        display: none;
+    }
+}
+
+
 /* STYLING FOR MISCELLANEOUS PAGE */
 
-.color1{
+.color1 {
     background-color: #eeac99;
     height: 100px;
     padding-top: 10px;
 }
 
-.color2{
+.color2 {
     background-color: #e06377;
     height: 100px;
     padding-top: 10px;
 }
 
-.box7, .box8{
-    height: 220px;
-}
+/* STYLING FOR THE FAMILYTREEM.HTML AND FAMILYTREET.HTML DOCS */
 
-.last2lines{
-    margin-left: 25px;
-}
-/* 
-@media only screen and (max-width: 768px) {
-    .box2 {display: none;}
-    .box3 {display: none;}
-    .box4 {background-color: #e06377;}
-    .box6 {display: none;}
-    .box7 {display: none;}
-    .box8 {
-        background-color: #e06377;
-        font-size: 94%;
-        height: 320px;}
-    .last2lines {margin-left: 0px}
-}
-*/
-.family-tree-jumbo{
+.family-tree-jumbo {
     background-color: #f9d5e5;
     font-family: 'Permanent Marker', cursive;
     text-align: center;
 }
 
+.family-tree-jumbo > h3 {
+    color: #c83349;
+} 
 
-.space-filler{
-    min-height: 100px;
-}
-
-
-.fourgenerations img{
+/* rotate the fourgenerationsM photo 90 degrees */
+.fourgenerationsM img {
     width: 100%;
     height: auto;
-    transform: rotate(-90deg);
+   -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+    transform: rotate(90deg);
+    position: relative;
+    top: 60px;
+    border: solid 5px #e06377;
 }
 
-
-
-.item img{
-    width: 1024px;
-    height: 500px;
+/* adjust the position of the fourgenerationsM photo and related text, depending on the screen size */
+@media only screen and (max-width: 1199px) {
+    .fourgenerationsM img {
+        position: relative;
+        top: 50px;
+    }
+    .customclassM {
+        position: relative;
+        top: 2px;
+    }
 }
 
+@media only screen and (max-width: 991px) {
+    .fourgenerationsM img {
+        position: relative;
+        top: 100px;
+    }
+    .customclassM {
+        position: relative;
+        top: 250px;
+        left: 50px;
+    }
+}
 
+@media only screen and (max-width: 767px) {
+    .fourgenerationsM img {
+        position: relative;
+        top: 120px;
+    }
+    .customclassM {
+        position: relative;
+        top: 250px;
+        left: 0px;
+    }
+}
 
+/* adjust the positioning of the fourgenerationsT photo and related text, depending on the screen size */
+@media only screen and (min-width: 992px) {
+    .fourgenerationsT img {
+        width: 100%;
+        height: auto;
+        position: relative;
+        left: 50px;
+        top: 20px;
+        border: solid 5px #e06377;
+    }
+    .customclassT {
+        position: relative;
+        left: 50px;
+    }
+}
 
-/* styling for text in the familytree.html doc */
+@media only screen and (min-width: 768px) {
+    .fourgenerationsT img {
+        width: 100%;
+        height: auto;
+        border: solid 5px #e06377;
+    }
+    .customclassT {
+        position: relative;
+        top: 20px;
+        left: 50px;
+    }
+}
 
-.withtext{
+@media only screen and (min-width: 100px) {
+    .fourgenerationsT img {
+        width: 100%;
+        height: auto;
+        border: solid 5px #e06377;
+    }
+    .customclassT {
+        position: relative;
+        top: 20px;
+    }
+}
+
+/* change the size of the modal for the fourgenerationsM photo when displayed in modal format */
+.fourgenerationsM-modal {
+        height: 620px;
+        width: 600px;
+}
+
+/* rotate the fourgenerationsM photo 90 degrees when it is displayed in modal format */
+.fourgenerationsM-modal img {
+    -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+    transform: rotate(90deg);
+    height: 450px;
+    position: absolute;
+    top: 80px;
+}
+
+.withtext {
     text-align: center;
     border: 2px solid black;
 }
 
-.withsymbol{ 
+.withtext1 {
+    border: 3.4px solid black; 
     text-align: center;
 }
 
-
-.4generationsphoto{
-    
-    -ms-transform: rotate(90deg); /* IE 9 */
-    -webkit-transform: rotate(90deg); /* Safari */
-    transform: rotate(90deg);
+.withsymbol { 
+    text-align: center;
 }
+
+.specialborder {
+    border: solid 3px #e06377;
+}
+
+
+/* STYLING FOR QUESTIONNAIRE */
+
+#heading{
+    background-color: #c83349;
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    color: #f9d5e5;
+}
+
+#Qborder{
+    border-width: 10px;
+    border-style: solid;
+    border-color: #f9d5e5;
+}
+
+#first-row{
+    height: 2.5em;
+}
+
+#sjButtonJap > .btn,
+#lmButtonJap > .btn {
+    font-size: 75%;
+}
+
+@media only screen and (max-width: 991px) {
+    #sjButtonJap > .card_back,
+    #lmButtonJap > .card_back{
+        padding-left: 3px;
+        text-align: left;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    #sjButtonJap > .btn,
+    #lmButtonJap > .btn {
+        font-size: 75%;
+        padding-left: 3px;
+        text-align: left;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    #sjButtonJap > .btn,
+    #lmButtonJap > .btn {
+        font-size: 70%;
+        padding-left: 0px;
+        text-align: left;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    #sjButtonJap > .card_back,
+    #lmButtonJap > .card_back {
+        font-size: 65%;
+    }
+    #sjButtonJap > .card_front,
+    #lmButtonJap > .card_front {
+        font-size: 65%;
+        padding-left: 3px;
+        text-align: center;
+    }
+}
+
+.card{
+  position: relative;
+  width: 25%; 
+  text-align: center;
+}
+
+.card_front,
+.card_back{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.card_front,
+.card_back{
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  -webkit-transition: -webkit-transform 0.3s;
+          transition: transform 0.3s;
+}
+
+.card_front{
+  background-color: #eeac99;
+}
+
+.card_back{
+  background-color: #eeac99;
+  -webkit-transform: rotateY(-180deg);
+          transform: rotateY(-180deg);
+}
+
+.card.effect_hover:hover .card_front{
+  -webkit-transform: rotateY(-180deg);
+          transform: rotateY(-180deg);
+}
+
+.card.effect_hover:hover .card_back{
+  -webkit-transform: rotateY(0);
+          transform: rotateY(0);
+}
+
+.customBtn{
+  
+  border-right: 6px solid #eeac99;
+  border-bottom: 6px solid #eeac99;
+  border-right-style: outset;
+  border-bottom-style: outset;
+} 
+
+.question{
+    background-color: #eeac99;
+}
+
+#hiddenSJ-1, #hiddenSJ-2, #hiddenSJ-3, #hiddenSJ-4, #hiddenSJ-5, #hiddenSJ-6, #hiddenSJ-7, #hiddenSJ-8, #hiddenSJ-9, #hiddenSJ-10, #hiddenSJ-11, #hiddenSJ-12, #hiddenSJ-13, #hiddenSJ-14, #hiddenSJ-15, #hiddenSJ-16, #hiddenSJ-17, #hiddenSJ-18, #hiddenSJ-19, #hiddenSJ-20, #hiddenSJ-21, #hiddenLM-1, #hiddenLM-2, #hiddenLM-3, #hiddenLM-4, #hiddenLM-5, #hiddenLM-6, #hiddenLM-7, #hiddenLM-8, #hiddenLM-9, #hiddenLM-10, #hiddenLM-11, #hiddenLM-12, #hiddenLM-13, #hiddenLM-14, #hiddenLM-15, #hiddenLM-16, #hiddenLM-17, #hiddenLM-18, #hiddenLM-19, #hiddenLM-20, #hiddenLM-21{
+     
+     background-color: #eeac99;
+}
+
+
+
