@@ -220,7 +220,7 @@ $(document).ready(function(){
         $('#hiddenSJ-3').html('&nbspI Am No. 4').css({'background-color': '#e06377','opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 1500, 'linear');
         $('#hiddenSJ-4').html('&nbspPitch Perfect (10X)').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 2000, 'linear');
         $('#hiddenSJ-5').html ('&nbspa').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 2500, 'linear');
-        $('#hiddenSJ-6').html('&nbsp21-30y').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 3000, 'linear');
+        $('#hiddenSJ-6').html('&nbsp21-30 y').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 3000, 'linear');
         $('#hiddenSJ-7').html('&nbsp3-4').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 3500, 'linear');
         $('#hiddenSJ-8').html('&nbspmath or writing').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 4000, 'linear');
         $('#hiddenSJ-9').html('&nbspno').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 4500, 'linear');
@@ -246,7 +246,7 @@ $(document).ready(function(){
         $('#hiddenLM-3').html('&nbspAbduction').css({'background-color': '#e06377','opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 1500, 'linear');
         $('#hiddenLM-4').html('&nbspHunger Games (5X)').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 2000, 'linear');
         $('#hiddenLM-5').html ('&nbspa').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 2500, 'linear');
-        $('#hiddenLM-6').html('&nbsp21-30y').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 3000, 'linear');
+        $('#hiddenLM-6').html('&nbsp21-30 y').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 3000, 'linear');
         $('#hiddenLM-7').html('&nbsp2 biological and 2 adopted').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 3500, 'linear');
         $('#hiddenLM-8').html('&nbspsports').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 4000, 'linear');
         $('#hiddenLM-9').html('&nbspno').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 4500, 'linear');
@@ -269,8 +269,8 @@ $(document).ready(function(){
 function mySetupFunction5() {
      if ($(window).width() <=635) {
         $('.question4').html('&nbspWhat movie have you seen the most<br>&nbsptimes (beginning to end)?');
-        $('.question5').html('&nbspHow far from home will you go to<br>&nbspcollege?');
-        $('.question6').html('&nbspHow old will you be when you first<br>&nbspmarry?<br>&nbspa. less than 50 miles<br>&nbspb. more than 50 miles');
+        $('.question5').html('&nbspHow far from home will you go to<br>&nbspcollege?<br>&nbspa. less than 50 miles<br>&nbspb. more than 50 miles');
+        $('.question6').html('&nbspHow old will you be when you first<br>&nbspmarry?<br>&nbspa. 15-20 y<br>&nbspb. 21-25 y<br>&nbspc. 26-30 y<br>&nbspd. over 30 y<br>');
         $('.question12').html('&nbspWill you be a registered Democrat,<br>&nbspregistered Republican or independent?&nbsp');
         $('.question15').html('&nbspWhat country would you most like to<br>&nbspvisit?');
         $('.question21').html('&nbspRESENT/RESERVE<br>&nbspDo these words<br>&nbspa. have similar meanings?<br>&nbspb. have contradictory meanings?<br>&nbspc. mean neither the same nor the<br>&nbsp&nbsp&nbsp&nbsp&nbspopposite?');
@@ -278,8 +278,8 @@ function mySetupFunction5() {
         
     else if ($(window).width() <= 767) {
         $('.question4').html('&nbspWhat movie have you seen the most times<br>&nbsp(beginning to end)?');
-        $('.question5').html('&nbspHow far from home will you go to college?');
-        $('.question6').html('&nbspHow old will you be when you first marry?<br>&nbspa. less than 50 miles<br>&nbspb. more than 50 miles');
+        $('.question5').html('&nbspHow far from home will you go to college?<br>&nbspa. less than 50 miles<br>&nbspb. more than 50 miles');
+        $('.question6').html('&nbspHow old will you be when you first marry?<br>&nbspa. 15-20 y<br>&nbspb. 21-25 y<br>&nbspc. 26-30 y<br>&nbspd. over 30 y<br>');
         $('.question12').html('&nbspWill you be a registered Democrat, registered<br>&nbspRepublican or independent?&nbsp');
         $('.question15').html('&nbspWhat country would you most like to visit?');
         $('.question21').html('&nbspRESENT/RESERVE<br>&nbspDo these words<br>&nbspa. have similar meanings?<br>&nbspb. have contradictory meanings?<br>&nbspc. mean neither the same nor the opposite?');
@@ -369,12 +369,12 @@ function mySetupFunction6() {
     }
     
     else if ($(window).width() <=660) {
-        $('.question5Jap').html('&nbsp家から大学まで何マイルぐらいだと<br>&nbsp思いますか');
+        $('.question5Jap').html('&nbsp家から大学まで何マイルぐらいだと<br>&nbsp思いますか<br>&nbspa. 50マイル以下<br>&nbspb. 50マイル以上');
         $('.question12Jap').html('&nbsp将来、民主党か共和党または無党派ですか');
     }
         
     else {
-        $('.question5Jap').html('&nbsp家から大学まで何マイルぐらいだと思いますか');
+        $('.question5Jap').html('&nbsp家から大学まで何マイルぐらいだと思いますか<br>&nbspa. 50マイル以下<br>&nbspb. 50マイル以上');
     }
 }
 
