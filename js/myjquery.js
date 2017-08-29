@@ -10,6 +10,27 @@ red: #c83349
 
 */
 
+$(document).ready(function() {
+    if ($('div').hasClass('HHHH')) {
+        $('.HHHH .carousel-caption').css('color', 'white');
+        
+       
+    }
+        
+
+    
+    
+    else {
+        $('.HHHH .carousel-caption').append('');
+        
+       
+    }
+});
+
+
+
+
+
 
 /* JQUERY FOR NAV BAR */
 
@@ -125,6 +146,8 @@ $("div[id^='myModal']").each(function(){
 function mySetupFunction1() {
     if ($(window).width() <= 540) {
         $('.box1').css('height', '100px');
+        $('.box7').css('visibility', 'hidden');
+        $('.box8').css('visibility', 'hidden');
     }
     
     else if ($(window).width() <= 768){	
@@ -134,8 +157,20 @@ function mySetupFunction1() {
         $('.box4').css({'background-color': '#e06377', 'height': '70px'});
         $('.box5').css({'background-color': '#eeac99', 'height': '70px'});
         $('.box6').css({'background-color': '#e06377', 'height': '70px'});
-        $('.box7').css({'background-color': '#eeac99', 'font-size': '94%', 'height': '200px'});
-        $('.box8').css({'background-color': '#e06377', 'height': '60px'}).html('Photograph on home page taken in June 2009.<br>This website last updated in July 2017.');
+        $('.box7').css({'background-color': '#eeac99', 'font-size': '94%', 'height': '200px', 'visibility': 'visible'});
+        $('.box8').css({'background-color': '#e06377', 'height': '60px', 'visibility': 'visible'});
+        
+        if ($('div').hasClass('englishShakespeare')) {
+        $('.box7').html('<p>Every fair from fair sometimes declines,<br>By chance, or Nature\'s changing course, <a class=\'misc-link-7\' href=\'untrimmed.html\'>untrimmed</a>.<br>But thy eternal sunshine shall not fade,<br>Nor lose possession of that fair thou <a class=\'misc-link-7\' href=\'owest.html\'>ow\'st</a>,<br>Nor shall Death brag thou wand\'rest in his shade,<br>When <a class=\'misc-link-7\' href=\'ineternallines.html\'>in eternal lines to Time thou grow\'st</a>.<br><span class=\'last2lines\'>So long as men can breathe or eyes can see,</span><br><span class=\'last2lines\'>So long lives this website, and this website gives life to thee.</span></p><p style=\'text-align: center\'>William Shakespeare, Sonnet 18</p>');
+        $('.box8').html('<p>Photograph on home page taken in June 2009.<br>This website last updated in August 2017.</p>');
+        }
+        
+        else {
+        $('.box7').html('<p>どんなに美しいものもやがては萎み衰え<br>偶然や自然の移り変わりの中で消え去ってい<br>でも君の永遠の夏は決して色あせない<br>君の今の美しさが失われることもない<br>死神が君を死の影に誘い込んだと嘯くこともない<br>君が永遠の詩の中で時そのものと溶け合うならば<br><span class=\'last2lines\'>人間がこの世に生きている限りこのサイトも生きる</span><br><span class=\'last2lines\'>そして君に永遠の命を吹き込み続けるだろう</span></p><p style=\'text-align: center\'>シェイクスピアのソネット18</p>');
+        $('.box8').html('<p>ホームページの写真は2009年6月に撮りました。<br>このサイトは2017年8月こ更新しました。</p>');
+        
+        }
+        
         $('.misc-link-1, .misc-link-3, .misc-link-5, .misc-link-7').css('color', '#c83349');
         $('.misc-link-2, .misc-link-4, .misc-link-6').css('color', '#f9d5e5');
         
@@ -149,8 +184,19 @@ function mySetupFunction1() {
         $('.box4').css({'background-color': '#eeac99', 'height': '100px'});
         $('.box5').css({'background-color': '#eeac99', 'height': '100px'});
         $('.box6').css({'background-color': '#e06377', 'height': '100px'});
-        $('.box7').css({'background-color': '#e06377', 'height': '220px', 'font-size': '100%'});
-        $('.box8').css({'background-color': '#eeac99',  'height': '220px'});
+        $('.box7').css({'background-color': '#e06377', 'height': '220px', 'font-size': '100%', 'visibility': 'visible'});
+        $('.box8').css({'background-color': '#eeac99', 'height': '220px','visibility': 'visible'});
+        
+        if ($('div').hasClass('englishShakespeare')) {
+        $('.box7').html('<p>Every fair from fair sometimes declines,<br>By chance, or Nature\'s changing course, <a class=\'misc-link-7\' href=\'untrimmed.html\'>untrimmed</a>.<br>But thy eternal sunshine shall not fade,<br>Nor lose possession of that fair thou <a class=\'misc-link-7\' href=\'owest.html\'>ow\'st</a>,<br>Nor shall Death brag thou wand\'rest in his shade,<br>When <a class=\'misc-link-7\' href=\'ineternallines.html\'>in eternal lines to Time thou grow\'st</a>.<br><span class=\'last2lines\'>So long as men can breathe or eyes can see,</span><br><span class=\'last2lines\'>So long lives this website, and this website gives life to thee.</span></p><p style=\'text-align: center\'>William Shakespeare, Sonnet 18</p>');
+         $('.box8').html('<p>Photograph on home page taken in June 2009.<br>This website last updated in August 2017.</p>');
+        }
+        
+        else {
+        $('.box7').html('<p>どんなに美しいものもやがては萎み衰え<br>偶然や自然の移り変わりの中で消え去ってい<br>でも君の永遠の夏は決して色あせない<br>君の今の美しさが失われることもない<br>死神が君を死の影に誘い込んだと嘯くこともない<br>君が永遠の詩の中で時そのものと溶け合うならば<br><span class=\'last2lines\'>人間がこの世に生きている限りこのサイトも生きる</span><br><span class=\'last2lines\'>そして君に永遠の命を吹き込み続けるだろう</span></p><p style=\'text-align: center\'>シェイクスピアのソネット18</p>');
+        $('.box8').html('<p>ホームページの写真は2009年6月に撮りました。<br>このサイトは2017年8月こ更新しました。</p>');
+        }
+        
         $('.misc-link-1, .misc-link-4, .misc-link-5').css('color', '#c83349');
         $('.misc-link-2, .misc-link-3, .misc-link-6, .misc-link-7').css('color', '#f9d5e5');
         

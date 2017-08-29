@@ -8,6 +8,8 @@ pink: #e06377
 
 red: #c83349
 
+light pink:  #ffb3ff
+
 */
 
 /*
@@ -222,23 +224,23 @@ red: #c83349
 /* give the color red to the left and right arrows in the Slideshow */
 
 .carousel-control > span {
-    color: #c83349;
+    color: #e06377;
 }
 
-/* make the carousel captions red */
+/* make the carousel captions black */
 .carousel-caption {
-    color: #c83349;
+    color: black;
 }
 
-/* give the color red to the border of the carousel indicators (the small circles at the bottom of the screen) */
+/* give the color black to the border of the carousel indicators (the small circles at the bottom of the screen) */
 .carousel-indicators li {
-    border: 1px solid #c83349;
+    border: 1px solid black;
 }
 
-/* give the color red to the small circle on the photo that appears on screen */
+/* give the color black to the active carousel indicator */
 
 .carousel-indicators .active {
-  background-color: #c83349;
+  background-color: black;
 }
 
 /* hide carousel indicators in screen widths below 992px */ 
