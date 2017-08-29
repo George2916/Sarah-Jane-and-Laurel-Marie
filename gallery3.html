@@ -19,24 +19,24 @@
 
 </head>
     
-<body class="body2">
+<body>
     
 <div class="container">
    
-   <!--collapsing nav bar -->
+   <!--collapsing nav bar-->
     
     <nav class="navbar navbar-default">
-    
+        
     <div class="navbar-header">            
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar"><span class="glyphicon glyphicon-menu-hamburger"></span></button> 
-    </div> 
+    </div>
                       
     <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav">
             <li class="DDDD"><a class="home" href="index.html">Home</a></li>
             <li class="dropdown active DDDD"><a class="active dropdown-toggle gallery-0" data-toggle="dropdown" href="#">Gallery <span class="caret"></span></a>
-                <ul class="dropdown-menu CCCC">
-                   <li><a class="gallery-1" href="gallery1.html">Gallery - Jan. 2001 / Feb. 2004</a></li>
+                <ul class="dropdown-menu">
+                    <li><a class="gallery-1" href="gallery1.html">Gallery - Jan. 2001 / Feb. 2004</a></li>
                     <li><a class="gallery-2" href="gallery2.html">Gallery - Feb. 2004 / Dec. 2006</a></li>
                     <li><a class="gallery3" href="gallery3.html">Gallery - June 2007 / Nov. 2008</a></li>
                     <li><a class="gallery4" href="gallery4.html">Gallery - Nov. 2008 / Sept. 2009</a></li>
@@ -44,14 +44,15 @@
             </li>
             <li class="DDDD"><a class="slideshow" href="slideshow.html">Slide Show</a></li>
             <li class="DDDD"><a class="misc" href="misc.html">Miscellaneous</a></li>
-            <li class="DDDD"><a href="gallery2-jap.html">日本語</a></li>
+            <li class="DDDD"><a href="gallery3-jap.html">日本語</a></li>
         </ul>
+           
+    </div>  <!-- closes .navbar-collapse -->
         
-        </div> <!-- closes .navbar-collapse -->
-        
-        </nav>
-    
-    
+    </nav>
+            
+            
+
     <div class="gallery-background">
     
             
@@ -59,24 +60,24 @@
                 
             <div class="col-xs-6 col-md-3 extra-padding">
             <a href="#myModal1" data-toggle="modal">
-            <img class="img-responsive center-block" src="images/2004feb2A.JPG" alt="Picture of UG, G, SJ and Abigail in Schenectady"></a>
+            <img class="img-responsive center-block" src="images/2007june1A.JPG" alt="Picture of SJ holding G in NYC"></a>
             </div>
             
             <div class="col-xs-6 col-md-3 extra-padding">
             <a href="#myModal2" data-toggle="modal">
-            <img class="img-responsive center-block" src="images/2004feb4A.JPG" alt="Picture of G, SJ and LM standing in a crib in Schenectady"></a>
+            <img class="img-responsive center-block" src="images/2007june5.JPG" alt="Picture of LM holding G in NYC"></a>
+            </div>
+            
+                
+            <div class="col-xs-6 col-md-3">
+            <a href="#myModal3" data-toggle="modal">
+            <img class="img-responsive center-block" src="images/2007june7.JPG" alt="Picture of AS, UG, G, J, SJ and LM in NYC"></a>
             </div>
                     
              
             <div class="col-xs-6 col-md-3">
-            <a href="#myModal3" data-toggle="modal">
-            <img class="img-responsive center-block" src="images/2005nov2.JPG" alt="Picture of extended family in Raleigh"></a>
-            </div>
-            
-           
-            <div class="col-xs-6 col-md-3">
             <a href="#myModal4" data-toggle="modal">
-            <img class="img-responsive center-block" src="images/2005nov4.JPG" alt="Picture of AS, G, J, SJ and LM in Raleigh"></a>
+            <img class="img-responsive center-block" src="images/2008jan3A.JPG" alt="Picture of G, SJ and LM with snowman in Cary"></a>
             </div>
             
         </div>
@@ -88,143 +89,146 @@
                 <div class="modal-content">
                 <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title modal1">Schenectady, February 2004</h4>   </div> <!-- /modal-header -->
+                <h4 class="modal-title">NYC, June 2007</h4> </div> <!-- /modal-header -->
                 <div class="modal-body">
-                <img src="images/2004feb2A.JPG" width=100% height=100% alt="Picture of UG, G, SJ and Abigail in Schenectady">
-                </div> <!-- /modal-body -->
+                <img src="images/2007june1A.JPG" width=100% height=100% alt="Picture of SJ holding G in NYC">
+                </div><!-- /modal-body -->
                 <div class="modal-footer">
                 <button type="button" class="btn btn-default btn-next">Next</button>   
                 </div> <!-- /modal-footer -->
                 </div> <!-- /modal-content -->
                 </div> <!-- /modal-dialog -->
                 </div> <!-- /modal --> 
-    
-    
+            
+            
             <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
                 <div class="modal-dialog">
                 <div class="modal-content">
                 <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title">Schenectady, February 2004</h4>      
-                </div> <!-- /modal-header -->
+                <h4 class="modal-title">NYC, June 2007</h4> </div> <!-- /modal-header -->
                 <div class="modal-body">
-                <img src="images/2004feb4A.JPG" width=100% height=100% alt="Picture of G, SJ and LM standing in a crib in Schenectady">
+                <img src="images/2007june5.JPG" width=100% height=100% alt="Picture of LM holding G in NYC">
+                </div> <!-- /modal-body -->
+                <div class="modal-footer">
+                <button type="button" class="btn btn-default btn-prev">Prev</button>
+                <button type="button" class="btn btn-default btn-next">Next</button> 
+                </div> <!-- /modal-footer -->
+                </div> <!-- /modal-content -->
+                </div> <!-- /modal-dialog -->
+                </div> <!-- /modal --> 
+    
+            <div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                <div class="modal-content">
+                <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">NYC, June 2007</h4> </div> <!-- /modal-header -->
+                <div class="modal-body">
+                <img src="images/2007june7.JPG" width=100% height=100% alt="Picture of AS, UG, G, J, SJ and LM in NYC">
                 </div><!-- /modal-body -->
                 <div class="modal-footer">
                 <button type="button" class="btn btn-default btn-prev">Prev</button>
-                <button type="button" class="btn btn-default btn-next">Next</button>   
+                <button type="button" class="btn btn-default btn-next">Next</button>  
                 </div> <!-- /modal-footer -->
                 </div> <!-- /modal-content -->
                 </div> <!-- /modal-dialog -->
                 </div> <!-- /modal --> 
                 
-        <div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal fade" id="myModal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
                 <div class="modal-dialog">
                 <div class="modal-content">
                 <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title">Raleigh, November 2005</h4>   </div> <!-- /modal-header -->
+                <h4 class="modal-title">Raleigh, January 2008</h4>   </div> <!-- /modal-header -->
                 <div class="modal-body">
-                <img src="images/2005nov2.JPG" width=100% height=100% alt="Picture of extended family in Raleigh">
+                <img src="images/2008jan3A.jpg" width=100% height=100% alt="Picture of G, SJ and LM with snowman in Cary">
                 </div> <!-- /modal-body -->
                 <div class="modal-footer">
                 <button type="button" class="btn btn-default btn-prev">Prev</button>
-                <button type="button" class="btn btn-default btn-next">Next</button>   
+                <button type="button" class="btn btn-default btn-next">Next</button> 
                 </div> <!-- /modal-footer -->
                 </div> <!-- /modal-content -->
                 </div> <!-- /modal-dialog -->
                 </div> <!-- /modal --> 
   
-        <div class="modal fade" id="myModal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                <div class="modal-dialog">
-                <div class="modal-content">
-                <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title">Raleigh, November 2005</h4>      
-                </div> <!-- /modal-header -->
-                <div class="modal-body">
-                <img src="images/2005nov4.JPG" width=100% height=100% alt="Picture of AS, G, J, SJ and LM in Raleigh">
-                </div><!-- /modal-body -->
-                <div class="modal-footer">
-                <button type="button" class="btn btn-default btn-prev">Prev</button>
-                <button type="button" class="btn btn-default btn-next">Next</button>
-                </div> <!-- /modal-footer -->
-                </div> <!-- /modal-content -->
-                </div> <!-- /modal-dialog -->
-                </div> <!-- /modal --> 
-                        
-    
-        <div class="row">
-                
+       
+            
+    <div class="row">
+        
             <div class="col-xs-6 col-md-3 extra-padding">
             <a href="#myModal5" data-toggle="modal">
-            <img class="img-responsive center-block" src="images/2005nov7.JPG" alt="Picture of AS, UG, G, SJ and LM in Raleigh"></a>
+            <img class="img-responsive center-block" src="images/2008jan4A.JPG" alt="Picture of SJ and LM holding G in Cary"></a> 
             </div>
             
             <div class="col-xs-6 col-md-3 extra-padding">
             <a href="#myModal6" data-toggle="modal">
-            <img class="img-responsive center-block" src="images/2005nov8.JPG" alt="Picture of UG throwing SJ in the air in Raleigh"></a>
+            <img class="img-responsive center-block" src="images/2008jan5.JPG" alt="Picture of Great Grandmother Eleanor, G, SJ and LM in Raleigh"></a>
             </div>
+            
                 
             <div class="col-xs-6 col-md-3">
             <a href="#myModal7" data-toggle="modal">
-            <img class="img-responsive center-block" src="images/2005nov10A.JPG" alt="Picture of G and SJ in Raleigh"></a>
+            <img class="img-responsive center-block" src="images/2008jan7A.JPG" alt="Picture of SJ in Raleigh"></a>
             </div>
-            
+                    
+             
             <div class="col-xs-6 col-md-3">
             <a href="#myModal8" data-toggle="modal">
-            <img class="img-responsive center-block" src="images/2005nov11.JPG" alt="Picture of UG, J, SJ and LM in a pool in Raleigh"></a>
+            <img class="img-responsive center-block" src="images/2008jan10.JPG" alt="Picture of UG, SJ and LM with birthday cake in Raleigh"></a>
             </div>
+                
             
-                       
+            
+                               
         </div>
         
         <br>
         
-                    
-            <div class="modal fade" id="myModal5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">       <div class="modal-dialog">
-                <div class="modal-content">
-                <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title">Raleigh, November 2005</h4> </div> <!-- /modal-header -->
-                <div class="modal-body">
-                <img src="images/2005nov7.JPG" width=100% height=100% alt="Picture of AS, UG, G, SJ and LM in Raleigh">
-                </div> <!-- /modal-body -->
-                <div class="modal-footer">
-                <button type="button" class="btn btn-default btn-prev">Prev</button>
-                <button type="button" class="btn btn-default btn-next">Next</button> 
-                </div> <!-- /modal-footer -->
-                </div> <!-- /modal-content -->
-                </div> <!-- /modal-dialog -->
-                </div> <!-- /modal --> 
-    
-    
-           <div class="modal fade" id="myModal6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal fade" id="myModal5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
                 <div class="modal-dialog">
                 <div class="modal-content">
                 <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title">Raleigh, November 2005</h4>   </div> <!-- /modal-header -->
-                <div class="modal-body gallery-rotate">
-                <img src="images/2005nov8.JPG" width=100% height=100% alt="Picture of UG throwing SJ in the air in Raleigh">
+                <h4 class="modal-title">Cary, January 2008</h4>      
+                </div> <!-- /modal-header -->
+                <div class="modal-body">
+                <img src="images/2008jan4A.JPG" width=100% height=100% alt="Picture of SJ and LM holding G in Cary">
                 </div><!-- /modal-body -->
                 <div class="modal-footer">
                 <button type="button" class="btn btn-default btn-prev">Prev</button>
-                <button type="button" class="btn btn-default btn-next">Next</button> 
+                <button type="button" class="btn btn-default btn-next">Next</button>  
                 </div> <!-- /modal-footer -->
                 </div> <!-- /modal-content -->
                 </div> <!-- /modal-dialog -->
                 </div> <!-- /modal --> 
-        
-        <div class="modal fade" id="myModal7" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            
+            
+            <div class="modal fade" id="myModal6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
                 <div class="modal-dialog">
                 <div class="modal-content">
                 <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title">Raleigh, November 2005</h4>      
-                </div> <!-- /modal-header -->
+                <h4 class="modal-title">Raleigh, January 2008<br>With Great-Grandmother Eleanor</h4> </div> <!-- /modal-header -->
                 <div class="modal-body">
-                <img src="images/2005nov10A.JPG" width=100% height=100% alt="Picture of G and SJ in Raleigh">
+                <img src="images/2008jan5.JPG" width=100% height=100% alt="Picture of Great Grandmother Eleanor, G, SJ and LM in Raleigh">
+                </div> <!-- /modal-body -->
+                <div class="modal-footer">
+                <button type="button" class="btn btn-default btn-prev">Prev</button>
+                <button type="button" class="btn btn-default btn-next">Next</button>   
+                </div> <!-- /modal-footer -->
+                </div> <!-- /modal-content -->
+                </div> <!-- /modal-dialog -->
+                </div> <!-- /modal --> 
+    
+            <div class="modal fade" id="myModal7" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                <div class="modal-content">
+                <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">Raleigh, January 2008<br>"Only girls and little boys are allowed in this room"</h4> </div> <!-- /modal-header -->
+                <div class="modal-body">
+                <img src="images/2008jan7A.JPG" width=100% height=100% alt="Picture of SJ in Raleigh">
                 </div><!-- /modal-body -->
                 <div class="modal-footer">
                 <button type="button" class="btn btn-default btn-prev">Prev</button>
@@ -234,17 +238,15 @@
                 </div> <!-- /modal-dialog -->
                 </div> <!-- /modal --> 
                 
-  
-     <div class="modal fade" id="myModal8" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal fade" id="myModal8" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
                 <div class="modal-dialog">
                 <div class="modal-content">
                 <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title">Cary, November 2005</h4>
-                </div> <!-- /modal-header -->
+                <h4 class="modal-title">Raleigh, January 2008</h4>     </div> <!-- /modal-header -->
                 <div class="modal-body">
-                <img src="images/2005nov11.JPG" width=100% height=100% alt="Picture of UG, J, SJ and LM in a pool in Cary">
-                </div><!-- /modal-body -->
+                <img src="images/2008jan10.JPG" width=100% height=100% alt="Picture of UG, SJ and LM with birthday cake in Raleigh">
+                </div> <!-- /modal-body -->
                 <div class="modal-footer">
                 <button type="button" class="btn btn-default btn-prev">Prev</button>
                 <button type="button" class="btn btn-default btn-next">Next</button>
@@ -252,46 +254,42 @@
                 </div> <!-- /modal-content -->
                 </div> <!-- /modal-dialog -->
                 </div> <!-- /modal --> 
-        
-                
-          
-    
+  
+                           
     <div class="row">
                 
             <div class="col-xs-6 col-md-3 extra-padding">
             <a href="#myModal9" data-toggle="modal">
-            <img class="img-responsive center-block" src="images/2005nov12.JPG" alt="Picture of UG and SJ in a pool in Cary"></a>
+            <img class="img-responsive center-block" src="images/2008jan12A.JPG" alt="Picture of AS, UG and SJ in Raleigh"></a>
             </div>
-        
         
             <div class="col-xs-6 col-md-3 extra-padding">
             <a href="#myModal10" data-toggle="modal">
-            <img class="img-responsive center-block" src="images/2006july1A.JPG" alt="Picture of G, GGM, SJ and LM in Tyson's Corner"></a>
+            <img class="img-responsive center-block" src="images/2008may1.JPG" alt="Picture of extended family in Cary"></a>
+            </div>
+            
+            <div class="col-xs-6 col-md-3 extra-padding">
+            <a href="#myModal11" data-toggle="modal">
+            <img class="img-responsive center-block" src="images/2008nov1A.JPG" alt="Picture of G, SJ and LM with second cousin Deena in Raleigh"></a>
             </div>
             
             <div class="col-xs-6 col-md-3">
-            <a href="#myModal11" data-toggle="modal">
-            <img class="img-responsive center-block" src="images/2006july2.JPG" alt="Picture of extended family in Tyson's Corner"></a>
-            </div>
-                    
-             
-            <div class="col-xs-6 col-md-3">
             <a href="#myModal12" data-toggle="modal">
-            <img class="img-responsive center-block" src="images/2006dec1A.JPG" alt="Picture of extended family in Raleigh"></a>
+            <img class="img-responsive center-block" src="images/2008nov2A.JPG" alt="Picture of extended family in Raleigh"></a>
             </div>
+              
             
         </div>
         
-     
-             <div class="modal fade" id="myModal9" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        
+            <div class="modal fade" id="myModal9" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
                 <div class="modal-dialog">
                 <div class="modal-content">
                 <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title">Cary, November 2005</h4>     
-                </div> <!-- /modal-header -->
-                <div class="modal-body gallery-rotate">
-                <img src="images/2005nov12.JPG" width=100% height=100% alt="Picture of UG and SJ in a pool in Cary">
+                <h4 class="modal-title">Raleigh, January 2008</h4>   </div> <!-- /modal-header -->
+                <div class="modal-body">
+                <img src="images/2008jan12A.JPG" width=100% height=100% alt="Picture AS, UG and SJ in Raleigh">
                 </div><!-- /modal-body -->
                 <div class="modal-footer">
                 <button type="button" class="btn btn-default btn-prev">Prev</button>
@@ -300,16 +298,15 @@
                 </div> <!-- /modal-content -->
                 </div> <!-- /modal-dialog -->
                 </div> <!-- /modal --> 
-            
+                
             <div class="modal fade" id="myModal10" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
                 <div class="modal-dialog">
                 <div class="modal-content">
                 <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title">Tyson's Corner, VA, July 2006</h4>      
-                </div> <!-- /modal-header -->
+                <h4 class="modal-title">Cary, May 2008</h4> </div> <!-- /modal-header -->
                 <div class="modal-body">
-                <img src="images/2006july1A.JPG" width=100% height=100% alt="Picture of G, GGM, SJ and LM in Tyson's Corner">
+                <img src="images/2008may1.JPG" width=100% height=100% alt="Picture of UG, G, SJ and LM in NYC">
                 </div> <!-- /modal-body -->
                 <div class="modal-footer">
                 <button type="button" class="btn btn-default btn-prev">Prev</button>
@@ -318,34 +315,34 @@
                 </div> <!-- /modal-content -->
                 </div> <!-- /modal-dialog -->
                 </div> <!-- /modal --> 
-    
+  
+          
             <div class="modal fade" id="myModal11" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
                 <div class="modal-dialog">
                 <div class="modal-content">
                 <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title">Tyson's Corner, VA, July 2006</h4>      
+                <h4 class="modal-title">Raleigh, November 2008<br>With second cousin Deena</h4> 
                 </div> <!-- /modal-header -->
                 <div class="modal-body">
-                <img src="images/2006july2.JPG" width=100% height=100% alt="Picture of extended family in Tyson's Corner">
+                <img src="images/2008nov1A.JPG" width=100% height=100% alt="Picture of G, SJ and LM with second cousin Deena in Raleigh">
                 </div><!-- /modal-body -->
                 <div class="modal-footer">
                 <button type="button" class="btn btn-default btn-prev">Prev</button>
-                <button type="button" class="btn btn-default btn-next">Next</button> 
+                <button type="button" class="btn btn-default btn-next">Next</button>
                 </div> <!-- /modal-footer -->
                 </div> <!-- /modal-content -->
                 </div> <!-- /modal-dialog -->
                 </div> <!-- /modal --> 
-                
-        <div class="modal fade" id="myModal12" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+         
+            <div class="modal fade" id="myModal12" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
                 <div class="modal-dialog">
                 <div class="modal-content">
                 <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title">Raleigh, December 2006</h4>      
-                </div> <!-- /modal-header -->
+                <h4 class="modal-title">Raleigh, November 2008</h4> </div> <!-- /modal-header -->
                 <div class="modal-body">
-                <img src="images/2006dec1A.JPG" width=100% height=100% alt="Picture of extended family in Raleigh">
+                <img src="images/2008nov2A.JPG" width=100% height=100% alt="Picture of extended family in Raleigh">
                 </div> <!-- /modal-body -->
                 <div class="modal-footer">
                 <button type="button" class="btn btn-default btn-prev">Prev</button>
@@ -353,22 +350,23 @@
                 </div> <!-- /modal-content -->
                 </div> <!-- /modal-dialog -->
                 </div> <!-- /modal --> 
-          
-     
+    
+    
     </div>
-    
-    
+ 
     <ul class="pager">
-        <li class="previous"><a href="gallery1.html">Previous</a></li>
-        <li class="next"><a href="gallery3.html">Next</a></li>
+        <li class="previous"><a href="gallery2.html">Previous</a></li>
+        <li class="next"><a href="gallery4.html">Next</a></li>
+        
     </ul>
     
-</div> 
-    
+</div>
     
 <script src="js/jquery-3.2.0.js"></script>
 <script src="js/bootstrap.js"></script>
-<script src="js/myjquery.js"></script>  
+<script src="js/myjquery.js"></script>      
+    
+
 
 </body>
 </html>
