@@ -10,24 +10,74 @@ red: #c83349
 
 */
 
-$(document).ready(function() {
-    if ($('div').hasClass('HHHH')) {
-        $('.HHHH .carousel-caption').css('color', 'white');
-        
+// $(document).ready(function() {
+//     $('.carousel-indicators > li:focus').last().css('border', '1px solid white');
+// });
+
+
+// function mySetupFunction12() {
+//     if ($('div').hasClass('IIII')) {
+//         $('.HHHH .carousel-caption').css('color', 'white');
+//         $('.carousel-indicators li').css('border', '1px solid white');
        
-    }
+//     }
+     
+// }
+
+// $(document).ready(mySetupFunction12);
+
+
+
+
+
+
+// $(document).ready(function() {
+//   $('#myCarousel').on('slide.bs.carousel', function() {
+//         $('.HHHH .carousel-caption').css('color', 'white');
+//         $('.carousel-indicators li').css('border', '1px solid white');
+//     });
+    
+    // $('#myCarousel').on('slid.bs.carousel', function () {
+    //     $('.carousel-indicators li').css('border', '1px solid black');
+    // });
         
 
-    
-    
-    else {
-        $('.HHHH .carousel-caption').append('');
         
+// });
+
+
+
+
+
+
+
+// function mySetupFunction10() {
+  
+//     if ($('#myCarousel .active').index('#myCarousel .item') === 2)  {
+//         $('.carousel-caption').css('color', 'yellow');
+//     }
+
+//     else {
+//         $('.carousel-caption').css('color', 'black');
+//     }
+
+
+// }
+    
+// $(document).ready(mySetupFunction10);
+
+
+
+// function mySetupFunction11() {
+//     if ($('div').hasClass('HHHH')) {
+//         $('.HHHH .carousel-caption').css('color', 'white');
+//         $('.carousel-indicators li').css('border', '1px solid white');
        
-    }
-});
+//     }
+     
+// }
 
-
+// $(document).ready(mySetupFunction11);
 
 
 
@@ -225,6 +275,26 @@ $(window).resize(mySetupFunction1);
 
 $(document).ready(mySetupFunction2);
 $(window).resize(mySetupFunction2);
+
+/* JQUERY FOR SLIDESHOW */
+
+/* decease the size of the slideshow captions on screen sizes below 576px */
+
+function mySetupFunction25() {      
+    if ($(window).width() <= 575) {
+       $('.carousel-caption h3').each(function() {
+       $(this).replaceWith('<h6>'+$(this).html()+'</h6>');
+        });
+    }
+    
+    // else  {
+    //   $('.carousel-caption h3').each(function() {
+    //   $(this).replaceWith('<h3>'+$(this).html()+'</h3>');
+    //   });
+    // }
+}
+$(document).ready(mySetupFunction25);
+$(window).resize(mySetupFunction25);
 
 
 /*  JQUERY FOR QUESTIONNAIRE */

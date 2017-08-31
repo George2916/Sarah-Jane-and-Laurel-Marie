@@ -224,23 +224,24 @@ light pink:  #ffb3ff
 /* give the color red to the left and right arrows in the Slideshow */
 
 .carousel-control > span {
-    color: #e06377;
+    color: white;
 }
 
-/* make the carousel captions black */
+/* make the carousel captions white */
 .carousel-caption {
-    color: black;
+    color: white;
+    text-shadow: 0px 0px 2px;
 }
 
-/* give the color black to the border of the carousel indicators (the small circles at the bottom of the screen) */
+/* give the color white to the border of the carousel indicators (the small circles at the bottom of the screen) */
 .carousel-indicators li {
-    border: 1px solid black;
+    border: 1px solid white;
 }
 
-/* give the color black to the active carousel indicator */
+/* give the color white to the active carousel indicator */
 
 .carousel-indicators .active {
-  background-color: black;
+     background-color: white;
 }
 
 /* hide carousel indicators in screen widths below 992px */ 
