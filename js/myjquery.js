@@ -276,27 +276,6 @@ $(window).resize(mySetupFunction1);
 $(document).ready(mySetupFunction2);
 $(window).resize(mySetupFunction2);
 
-/* JQUERY FOR SLIDESHOW */
-
-/* decease the size of the slideshow captions on screen sizes below 576px */
-
-function mySetupFunction25() {      
-    if ($(window).width() <= 575) {
-       $('.carousel-caption h3').each(function() {
-       $(this).replaceWith('<h6>'+$(this).html()+'</h6>');
-        });
-    }
-    
-    // else  {
-    //   $('.carousel-caption h3').each(function() {
-    //   $(this).replaceWith('<h3>'+$(this).html()+'</h3>');
-    //   });
-    // }
-}
-$(document).ready(mySetupFunction25);
-$(window).resize(mySetupFunction25);
-
-
 /*  JQUERY FOR QUESTIONNAIRE */
 
 function mySetupFunction3() {

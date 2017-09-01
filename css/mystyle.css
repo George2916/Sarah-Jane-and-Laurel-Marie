@@ -8,8 +8,6 @@ pink: #e06377
 
 red: #c83349
 
-light pink:  #ffb3ff
-
 */
 
 /*
@@ -221,30 +219,29 @@ light pink:  #ffb3ff
     height: auto;
 }
 
-/* give the color red to the left and right arrows in the Slideshow */
+/* give the color of smokey white to the left and right arrows in the Slideshow */
 
 .carousel-control > span {
-    color: white;
+    color: #f5f5f5;
 }
 
-/* make the carousel captions white */
+/* make the carousel captions the color of smokey white */
 .carousel-caption {
-    color: white;
-    text-shadow: 0px 0px 2px;
+    color: #f5f5f5;
 }
 
-/* give the color white to the border of the carousel indicators (the small circles at the bottom of the screen) */
+/* give the color of smokey white to the border of the carousel indicators */
 .carousel-indicators li {
-    border: 1px solid white;
+    border: 1px solid #f5f5f5;
 }
 
-/* give the color white to the active carousel indicator */
+/* give the color of smokey white to the active carousel indicator */
 
 .carousel-indicators .active {
      background-color: white;
 }
 
-/* hide carousel indicators in screen widths below 992px */ 
+/* hide carousel indicators and delete the <h4> captions in screen widths below 992px */ 
 
 @media only screen and (max-width: 991px) {
     .carousel-indicators > li {
@@ -252,6 +249,14 @@ light pink:  #ffb3ff
     }
     .carousel-caption > h4 {
         display: none;
+    }
+}
+
+/* make font-size smaller in screen widths below 575px */
+
+@media only screen and (max-width: 575px) {
+    .carousel-caption h3 {
+        font-size: 75%;
     }
 }
 
