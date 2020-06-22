@@ -102,7 +102,7 @@ function mySetupFunction1() {
      if ($(window).width() <= 572) {
         $('.box1').css('background-color', '#eeac99');
         $('.box2').css('background-color', '#e06377');  
-        $('.box3').css('background-color', '#eeac99');
+        $('.box3').css({'background-color': '#eeac99', 'overflow': 'scroll'});
         $('.box4').css('background-color', '#e06377');
         $('.box5').css({'background-color': '#eeac99', 'overflow': 'scroll'});
         $('.box5J').css('background-color', '#eeac99');
