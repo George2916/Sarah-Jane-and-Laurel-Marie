@@ -498,4 +498,232 @@ red: #c83349
 }
 
 
+/* STYLING FOR FLIPPABLE PHOTOS */
+
+.FPborder1{
+    border-width: 10px 10px 1px 10px;
+    border-style: solid;
+    border-color: #f9d5e5;
+}
+
+.FPheading{
+    background-color: #c83349;
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    color: #f9d5e5;
+    padding-bottom: 20px;
+}
+
+.FPbackground{
+    border-width: 0px 10px 10px 10px;
+    border-style: solid;
+    border-color: #f9d5e5; 
+    background-color: #eeac99;
+    padding: 0px 20px 0px 20px;
+}
+
+.FPtextHeading{
+    padding: 0px 20px;
+}
+
+.pic-front{
+    box-shadow: 5px 5px 5px #c83349;
+    margin-bottom: 20px;
+}
+
+.pic-back{
+    display:none;
+    box-shadow: 5px 5px 5px #c83349;
+    margin-bottom: 20px;
+}
+
+.FPtext{
+    color: #c83349;
+}
+
+/* rotation of images */
+
+#front1{
+  transform: rotate(3deg);
+}
+
+#front1:hover{
+  transform: rotate(0deg);
+  cursor: grab;
+}
+    
+#back1-1{
+  transform: rotate(3deg);
+}
+
+#back1-1:hover{
+  transform: rotate(0deg);
+  cursor: grab;
+}
+
+#back1-2{
+  transform: rotate(3deg);
+}
+
+#back1-2:hover{
+  transform: rotate(0deg);
+  cursor: grab;
+}
+
+#front2{
+  transform: rotate(1deg);
+}
+
+#front2:hover{
+  transform: rotate(0deg);
+  cursor: grab;
+}
+    
+#back2{
+  transform: rotate(1deg);
+}
+
+#back2:hover{
+  transform: rotate(0deg);
+  cursor: grab;
+}
+
+#front3{
+  transform: rotate(-3deg);
+}
+
+#front3:hover{
+  transform: rotate(0deg);
+  cursor: grab;
+}
+    
+#back3-1{
+  transform: rotate(-3deg);
+}
+
+#back3-1:hover{
+  transform: rotate(0deg);
+  cursor: grab;
+}
+
+#back3-2{
+  transform: rotate(-3deg);
+}
+
+#back3-2:hover{
+  transform: rotate(0deg);
+  cursor: grab;
+}
+
+#front4{
+  transform: rotate(3deg);
+}
+
+#front4:hover{
+  transform: rotate(0deg);
+  cursor: grab;
+}
+    
+#back4{
+  transform: rotate(3deg);
+}
+
+#back4:hover{
+  transform: rotate(0deg);
+  cursor: grab;
+}
+
+#front5{
+  transform: rotate(1deg);
+}
+
+#front5:hover{
+  transform: rotate(0deg);
+  cursor: grab;
+}
+    
+#back5{
+  transform: rotate(1deg);
+}
+
+#back5:hover{
+  transform: rotate(0deg);
+  cursor: grab;
+}
+
+#front6{
+  transform: rotate(-7deg);
+}
+
+#front6:hover{
+  transform: rotate(-0deg);
+  cursor: grab;
+}
+    
+#back6{
+  transform: rotate(-7deg);
+}
+
+#back6:hover{
+  transform: rotate(-0deg);
+  cursor: grab;
+}
+
+#front7{
+  transform: rotate(1deg);
+}
+
+#front7:hover{
+  transform: rotate(0deg);
+  cursor: grab;
+}
+    
+#back7-1{
+  transform: rotate(1deg);
+}
+
+#back7-1:hover{
+  transform: rotate(0deg);
+  cursor: grab;
+}
+
+#back7-2{
+  transform: rotate(1deg);
+}
+
+#back7-2:hover{
+  transform: rotate(0deg);
+  cursor: grab;
+}
+
+#back7-3{
+  transform: rotate(1deg);
+}
+
+#back7-3:hover{
+  transform: rotate(0deg);
+  cursor: grab;
+}
+
+#front8{
+  transform: rotate(-5deg);
+}
+
+#front8:hover{
+  transform: rotate(0deg);
+  cursor: grab;
+}
+
+#back8{
+  transform: rotate(-5deg);
+}
+
+#back8:hover{
+  transform: rotate(0deg);
+  cursor: grab;
+}
+
+
+
+
 

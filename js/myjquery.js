@@ -1188,3 +1188,148 @@ function mySetupFunction7() {
 
 $(document).ready(mySetupFunction7);
 $(window).resize(mySetupFunction7);
+
+
+/* JAVASCRIPT FOR FLIPPABLE PAGES */
+
+function flip1() {
+  var x = document.getElementById("front1");
+  var y = document.getElementById("back1-1");
+  x.style.display = "none";
+  y.style.display = "block";
+}
+
+function flipAgain1() {
+  var x = document.getElementById("back1-2");
+  var y = document.getElementById("back1-1");
+  x.style.display = "block";
+  y.style.display = "none";
+}
+
+function unFlip1() {
+  var x = document.getElementById("front1");
+  var y = document.getElementById("back1-2");
+  x.style.display = "block";
+  y.style.display = "none";
+}
+
+function flip2() {
+  var x = document.getElementById("front2");
+  var y = document.getElementById("back2");
+  x.style.display = "none";
+  y.style.display = "block";
+}
+
+function unFlip2() {
+  var x = document.getElementById("front2");
+  var y = document.getElementById("back2");
+  x.style.display = "block";
+  y.style.display = "none";
+}
+
+
+function flip3() {
+  var x = document.getElementById("front3");
+  var y = document.getElementById("back3-1");
+  x.style.display = "none";
+  y.style.display = "block";
+}
+
+function flipAgain3() {
+  var x = document.getElementById("back3-2");
+  var y = document.getElementById("back3-1");
+  x.style.display = "block";
+  y.style.display = "none";
+}
+
+function unFlip3() {
+  var x = document.getElementById("front3");
+  var y = document.getElementById("back3-2");
+  x.style.display = "block";
+  y.style.display = "none";
+}
+
+function flip4() {
+  var x = document.getElementById("front4");
+  var y = document.getElementById("back4");
+  x.style.display = "none";
+  y.style.display = "block";
+}
+
+function unFlip4() {
+  var x = document.getElementById("front4");
+  var y = document.getElementById("back4");
+  x.style.display = "block";
+  y.style.display = "none";
+}
+
+function flip5() {
+  var x = document.getElementById("front5");
+  var y = document.getElementById("back5");
+  x.style.display = "none";
+  y.style.display = "block";
+}
+
+function unFlip5() {
+  var x = document.getElementById("front5");
+  var y = document.getElementById("back5");
+  x.style.display = "block";
+  y.style.display = "none";
+}
+
+function flip6() {
+  var x = document.getElementById("front6");
+  var y = document.getElementById("back6");
+  x.style.display = "none";
+  y.style.display = "block";
+}
+
+function unFlip6() {
+  var x = document.getElementById("front6");
+  var y = document.getElementById("back6");
+  x.style.display = "block";
+  y.style.display = "none";
+}
+
+function flip7() {
+  var x = document.getElementById("front7");
+  var y = document.getElementById("back7-1");
+  x.style.display = "none";
+  y.style.display = "block";
+}
+
+function flipAgain7() {
+  var x = document.getElementById("back7-2");
+  var y = document.getElementById("back7-1");
+  x.style.display = "block";
+  y.style.display = "none";
+}
+
+function flipThirdTime7() {
+  var x = document.getElementById("back7-3");
+  var y = document.getElementById("back7-2");
+  x.style.display = "block";
+  y.style.display = "none";
+}
+
+function unFlip7() {
+  var x = document.getElementById("front7");
+  var y = document.getElementById("back7-3");
+  x.style.display = "block";
+  y.style.display = "none";
+}
+
+function flip8() {
+  var x = document.getElementById("front8");
+  var y = document.getElementById("back8");
+  x.style.display = "none";
+  y.style.display = "block";
+}
+
+function unFlip8() {
+  var x = document.getElementById("front8");
+  var y = document.getElementById("back8");
+  x.style.display = "block";
+  y.style.display = "none";
+}
+
