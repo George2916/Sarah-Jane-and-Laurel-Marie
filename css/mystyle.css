@@ -243,13 +243,13 @@ red: #c83349
 
 .color1 {
     background-color: #eeac99;
-    height: 100px;
+    height: 110px;
     padding-top: 10px;
 }
 
 .color2 {
     background-color: #e06377;
-    height: 100px;
+    height: 110px;
     padding-top: 10px;
 }
 
@@ -498,9 +498,9 @@ red: #c83349
 }
 
 
-/* STYLING FOR FLIPPABLE PHOTOS */
+/* STYLING FOR FLIPPABLE PHOTOS (MEMENTOS) */
 
-.FPborder1{
+.FPborder{
     border-width: 10px 10px 1px 10px;
     border-style: solid;
     border-color: #f9d5e5;
@@ -723,7 +723,101 @@ red: #c83349
   cursor: grab;
 }
 
+#front9{
+  transform: rotate(-3deg);
+}
+
+#front10{
+  transform: rotate(2deg);
+}
+
+#front10:hover{
+  transform: rotate(0deg);
+  cursor: grab;
+}
+    
+#back10-1{
+  transform: rotate(2deg);
+}
+
+#back10-1:hover{
+  transform: rotate(0deg);
+  cursor: grab;
+}
+
+#back10-2{
+  transform: rotate(2deg);
+}
+
+#back10-2:hover{
+  transform: rotate(0deg);
+  cursor: grab;
+}
+
+#back10-3{
+  transform: rotate(2deg);
+}
+
+#back10-3:hover{
+  transform: rotate(0deg);
+  cursor: grab;
+}
+
+#back10-4{
+  transform: rotate(2deg);
+}
+
+#back10-4:hover{
+  transform: rotate(0deg);
+  cursor: grab;
+}
+
+#back10-5{
+  transform: rotate(2deg);
+}
+
+#back10-5:hover{
+  transform: rotate(0deg);
+  cursor: grab;
+}
 
 
 
+/* STYLING FOR QUOTES.HTML */
+
+
+.qText1{
+    color: #c83349;
+    font-family: 'Permanent Marker', cursive;
+    padding: 0px 50px;
+    text-align: center;
+}
+
+.qText2{
+    color: #c83349;
+    font-family: 'Permanent Marker', cursive;
+    padding: 0px 60px;
+    text-align: center;
+    
+}
+
+.qBackground1{
+    border-width: 0px 10px 1px 10px;
+    border-style: solid;
+    border-color: #f9d5e5; 
+    background-color: #eeac99;
+    padding: 20px 20px 0px 20px
+}
+
+.qBackground2{
+    border-width: 0px 10px 10px 10px;
+    border-style: solid;
+    border-color: #f9d5e5; 
+    background-color: #eeac99;
+    padding: 20px 20px 20px 20px
+}
+
+#quote1{
+    text-decoration: underline;
+}
 

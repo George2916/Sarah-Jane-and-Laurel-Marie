@@ -100,59 +100,73 @@ $("div[id^='myModal']").each(function(){
 function mySetupFunction1() {
     
      if ($(window).width() <= 572) {
+        $('.AAA').removeAttr('target');
         $('.box1').css('background-color', '#eeac99');
-        $('.box2').css('background-color', '#e06377');  
+        $('.box2').css('background-color', '#e06377');
         $('.box3').css({'background-color': '#eeac99', 'overflow': 'scroll'});
         $('.box4').css('background-color', '#e06377');
         $('.box5').css({'background-color': '#eeac99', 'overflow': 'scroll'});
         $('.box5J').css('background-color', '#eeac99');
         $('.box6').css({'background-color': '#e06377', 'overflow': 'scroll'});
-        $('.box7').css({'background-color': '#eeac99', 'height': '200px', 'overflow': 'scroll'});
-        $('.box8').css('background-color', '#e06377');
-        $('.misc-link-1, .misc-link-3, .misc-link-5, .misc-link-7').css('color', '#c83349');
+        $('.box7').css({'background-color': '#eeac99', 'overflow': 'scroll'});
+        $('.box8').css({'background-color': '#e06377', 'overflow': 'scroll'});
+        $('.box8J').css('background-color', '#e06377');
+        $('.box9').css({'background-color': '#eeac99', 'height': '200px', 'overflow': 'scroll'});
+        $('.box10').css('background-color', '#e06377');
+        $('.misc-link-1, .misc-link-3, .misc-link-5, .misc-link-7, .misc-link-9').css('color', '#c83349');
         $('.misc-link-2, .misc-link-4, .misc-link-6').css('color', '#f9d5e5');
+        
 }
     
-     else if ($(window).width() <= 767) {
+     else if ($(window).width() <= 745) {
+        $('.AAA').removeAttr('target');
         $('.box1').css('background-color', '#eeac99');
-        $('.box2').css('background-color', '#e06377');  
+        $('.box2').css('background-color', '#e06377');
         $('.box3').css('background-color', '#eeac99');
         $('.box4').css('background-color', '#e06377');
         $('.box5').css('background-color', '#eeac99');
         $('.box5J').css('background-color', '#eeac99');
         $('.box6').css('background-color', '#e06377');
-        $('.box7').css({'background-color': '#eeac99', 'height': '200px', 'overflow': 'scroll'});
-        $('.box8').css('background-color', '#e06377');
-        $('.misc-link-1, .misc-link-3, .misc-link-5, .misc-link-7').css('color', '#c83349');
+        $('.box7').css('background-color', '#eeac99');
+        $('.box8').css({'background-color': '#e06377', 'overflow': 'scroll'});
+        $('.box8J').css('background-color', '#e06377');
+        $('.box9').css({'background-color': '#eeac99', 'height': '200px', 'overflow': 'scroll'});
+        $('.box10').css('background-color', '#e06377');
+        $('.misc-link-1, .misc-link-3, .misc-link-5, .misc-link-7, .misc-link-9').css('color', '#c83349');
         $('.misc-link-2, .misc-link-4, .misc-link-6').css('color', '#f9d5e5');
     }
       
     else if ($(window).width() <= 991){
         $('.box1').css('background-color', '#eeac99');
-        $('.box2').css('background-color', '#e06377');   
+        $('.box2').css('background-color', '#e06377');
         $('.box3').css('background-color', '#e06377');
         $('.box4').css('background-color', '#eeac99');
         $('.box5').css({'background-color': '#eeac99', 'overflow': 'scroll'});
         $('.box5J').css('background-color', '#eeac99');
         $('.box6').css('background-color', '#e06377');
-        $('.box7').css({'background-color': '#e06377', 'font-size': '94%', 'height': '200px'});
-        $('.box8').css({'background-color': '#eeac99', 'height': '200px'});
-        $('.misc-link-1, .misc-link-4, .misc-link-5').css('color', '#c83349');
+        $('.box7').css('background-color', '#e06377');
+        $('.box8').css({'background-color': '#eeac99', 'overflow': 'scroll'});
+        $('.box8J').css('background-color', '#eeac99');
+        $('.box9').css({'background-color': '#eeac99', 'font-size': '94%', 'height': '200px'});
+        $('.box10').css({'background-color': '#e06377', 'height': '200px'});
+        $('.misc-link-1, .misc-link-4, .misc-link-5, .misc-link-9').css('color', '#c83349');
         $('.misc-link-2, .misc-link-3, .misc-link-6, .misc-link-7').css('color', '#f9d5e5');
         
         }
 
     else {
         $('.box1').css('background-color', '#eeac99');
-        $('.box2').css('background-color', '#e06377');   
+        $('.box2').css('background-color', '#e06377');
         $('.box3').css('background-color', '#e06377');
         $('.box4').css('background-color', '#eeac99');
-        $('.box5').css('background-color', '#eeac99');
-        $('.box5J').css('background-color', '#eeac99');
+        $('.box5').css({'background-color': '#eeac99', 'overflow': 'scroll'});
         $('.box6').css('background-color', '#e06377');
-        $('.box7').css({'background-color': '#e06377', 'height': '200px'});
-        $('.box8').css({'background-color': '#eeac99', 'height': '200px'});
-        $('.misc-link-1, .misc-link-4, .misc-link-5').css('color', '#c83349');
+        $('.box7').css('background-color', '#e06377');
+        $('.box8').css({'background-color': '#eeac99', 'overflow': 'scroll'});
+        $('.box8J').css('background-color', '#eeac99');
+        $('.box9').css({'background-color': '#eeac99', 'height': '200px'});
+        $('.box10').css({'background-color': '#e06377', 'height': '200px'});
+        $('.misc-link-1, .misc-link-4, .misc-link-5, .misc-link-9').css('color', '#c83349');
         $('.misc-link-2, .misc-link-3, .misc-link-6, .misc-link-7').css('color', '#f9d5e5');
         $('.last2lines').css('margin', '10px');
         }
@@ -233,10 +247,6 @@ $(window).resize(mySetupFunction4);*/
 $(document).ready(function(){
     
     $('#sjButton').one('click', function(){
-        
-	    
-        
-        
         if ($(window).width() <=385) {
             $(this).css('background-color', '#e06377').html('Sarah Jane').css('font-size', '90%');
             $('#hiddenSJ-1').html('&nbsp;soccer<span style=color:#f9d5e5>&nbsp;/&nbsp;</span><br>&nbsp;soccer').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible', 'font-size': '1.0em', 'font-family': 'Arial'}).animate({opacity: 1}, 500, 'linear');
@@ -710,7 +720,7 @@ $(document).ready(function(){
          else if ($(window).width() <=480) {
              $(this).css('background-color', '#e06377').html('サラ・<br>ジェーン');
              $('#hiddenSJJ-1').html('&nbsp;サッカー<span style=color:#f9d5e5>&nbsp;/&nbsp;</span>&nbsp;<br>&nbsp;サッカー').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible', 'font-size': '1.0em', 'font-family': 'Arial'}).animate({opacity: 1}, 500, 'linear'); 
-            $('#hiddenSJJ-2').html('&nbsp;女子サッカ<br>&nbsp;ーとアメリ<br>&nbsp;カンフット<br>&nbsp;ボール&nbsp;<span style=color:#f9d5e5>&nbsp;/&nbsp;</span><br>&nbsp;アイススケ<br>&nbsp;ーティング').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 1000, 'linear');
+            $('#hiddenSJJ-2').html('&nbsp;女��サッカ<br>&nbsp;ーとアメリ<br>&nbsp;カンフット<br>&nbsp;ボール&nbsp;<span style=color:#f9d5e5>&nbsp;/&nbsp;</span><br>&nbsp;アイススケ<br>&nbsp;ーティング').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 1000, 'linear');
             $('#hiddenSJJ-3').html('&nbsp;I Am No. 4&nbsp;<span style=color:#f9d5e5>&nbsp;/&nbsp;</span><br>&nbsp;Frankenstein').css({'background-color': '#e06377','opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 1500, 'linear');
             $('#hiddenSJJ-4').html('&nbsp;Pitch<br>&nbsp;Perfect&nbsp;<br>&nbsp;(10回)&nbsp;<span style=color:#f9d5e5>&nbsp;/&nbsp;</span><br>&nbsp;Harry Potter<br>&nbsp;movies<br>&nbsp;(18回)').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 2000, 'linear');
             $('#hiddenSJJ-5').html ('&nbsp;< 50&nbsp;<span style=color:#f9d5e5>&nbsp;/&nbsp;</span>&nbsp;> 50').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 2500, 'linear');
@@ -838,7 +848,7 @@ $(document).ready(function(){
         else {
             $(this).css('background-color', '#e06377').html('サラ・ジェーン');
             $('#hiddenSJJ-1').html('&nbsp;サッカー<span style=color:#f9d5e5>&nbsp;/&nbsp;</span>&nbsp;サッカー').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible', 'font-size': '1.0em', 'font-family': 'Arial'}).animate({opacity: 1}, 500, 'linear'); 
-            $('#hiddenSJJ-2').html('&nbsp女子サッカーとアメリカンフット<br>&nbsp;ボール&nbsp;<span style=color:#f9d5e5>&nbsp;/&nbsp;</span>&nbsp;アイススケーティング').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 1000, 'linear');
+            $('#hiddenSJJ-2').html('&nbsp女子サッカーとアメリカンフット<br>&nbsp;ボール&nbsp;<span style=color:#f9d5e5>&nbsp;/&nbsp;</span>&nbsp;ア��ススケーティング').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 1000, 'linear');
             $('#hiddenSJJ-3').html('&nbsp;I Am No. 4&nbsp;<span style=color:#f9d5e5>&nbsp;/&nbsp;</span>&nbsp;Frankenstein').css({'background-color': '#e06377','opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 1500, 'linear');
             $('#hiddenSJJ-4').html('&nbsp;Pitch Perfect (10回)&nbsp;<span style=color:#f9d5e5>&nbsp/&nbsp</span>&nbsp;Harry Potter&nbsp;<br>&nbsp;movies&nbsp;(18回)').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 2000, 'linear');
              $('#hiddenSJJ-5').html ('&nbsp;あ&nbsp;<span style=color:#f9d5e5>&nbsp;/&nbsp;</span>&nbsp;う').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 2500, 'linear');
@@ -988,7 +998,7 @@ $(document).ready(function(){
             $('#hiddenLMJ-22').html('&nbsp;2013年に質問が&nbsp;<br>&nbsp;聞かなかった&nbsp;<span style=color:#f9d5e5>&nbsp;/&nbsp;</span>&nbsp;<br>&nbsp;ローレル').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 2000);
             $('#hiddenLMJ-23').html('&nbsp;2013年に質問が&nbsp;<br>&nbsp;聞かなかった&nbsp;<span style=color:#f9d5e5>&nbsp;/&nbsp;</span>&nbsp;<br>&nbsp;ローレル').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 1500);
             $('#hiddenLMJ-24').html('&nbsp;2013年に質問が&nbsp;<br>&nbsp;聞かなかった&nbsp;<span style=color:#f9d5e5>&nbsp;/&nbsp;</span>&nbsp;<br>&nbsp;7%').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 1000);
-            $('#hiddenLMJ-25').html('&nbsp;2013年に質問が&nbsp;<br>&nbsp;聞かなかった&nbsp;<span style=color:#f9d5e5>&nbsp;/&nbsp;</span>&nbsp;<br>&nbsp;はい').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 500);
+            $('#hiddenLMJ-25').html('&nbsp;2013年に質問が&nbsp;<br>&nbsp;聞かな���った&nbsp;<span style=color:#f9d5e5>&nbsp;/&nbsp;</span>&nbsp;<br>&nbsp;はい').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 500);
             
             
         }
@@ -1053,7 +1063,7 @@ $(document).ready(function(){
             $(this).css('background-color', '#e06377').html('ローレル・マリー');
              $('#hiddenLMJ-1').html('&nbsp;サッカー<span style=color:#f9d5e5>&nbsp;/&nbsp;</span>&nbsp;サッカー&nbsp;').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible', 'font-size': '1.0em', 'font-family': 'Arial'}).animate({opacity: 1}, 500, 'linear');
             $('#hiddenLMJ-2').html('&nbsp;アメリカンフットボール&nbsp;<span style=color:#f9d5e5>&nbsp;/&nbsp;</span>&nbsp;サッカー&nbsp;').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 1000, 'linear');
-             $('#hiddenLMJ-3').html('&nbsp;Abduction&nbsp;<span style=color:#f9d5e5>&nbsp;/&nbsp;</span>&nbsp;"本を読まない"&nbsp;').css({'background-color': '#e06377','opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 1500, 'linear');
+             $('#hiddenLMJ-3').html('&nbsp;Abduction&nbsp;<span style=color:#f9d5e5>&nbsp;/&nbsp;</span>&nbsp;"本を読��ない"&nbsp;').css({'background-color': '#e06377','opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 1500, 'linear');
              $('#hiddenLMJ-4').html('&nbsp;Hunger Games (5回)&nbsp;<span style=color:#f9d5e5>&nbsp;/&nbsp;</span>&nbsp;&nbsp;The&nbsp;Princess&nbsp;<br>&nbsp;and the&nbsp;Pauper&nbsp;(20回)').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 2000, 'linear');
               $('#hiddenLMJ-5').html ('&nbsp;あ&nbsp;<span style=color:#f9d5e5>&nbsp;/&nbsp;</span>&nbsp;う').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 2500, 'linear');
               $('#hiddenLMJ-6').html('&nbsp;21-30歳&nbsp;<span style=color:#f9d5e5>&nbsp;/&nbsp;</span>&nbsp;う').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 3000, 'linear');
@@ -1138,7 +1148,7 @@ function mySetupFunction7() {
          $('.question15Jap').html('&nbsp;どの外国に一番行き<br>&nbsp;たいですか？');
          $('.question16Jap').html('&nbsp;将来、演劇の舞台に<br>&nbsp;立ちますか？');
          $('.question17Jap').html('&nbsp;将来、都会に住み<br>&nbsp;ますか？');
-         $('.question18Jap').html('&nbsp;将来、外国で働き<br>&nbsp;ますか？');
+         $('.question18Jap').html('&nbsp;将来、外国で���き<br>&nbsp;ますか？');
          $('.question19Jap').html('&nbsp;将来、スカイダイビン<br>&nbsp;グをしますか？');
          $('.question20Jap').html('&nbsp;将来、合唱団に入り<br>&nbsp;ますか？');
          $('.question21Jap').html('&nbsp;RESENT/RESERVE<br>&nbsp;この言葉に<br>&nbsp;あ。同義語があり<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ますか？<br>&nbsp;い。反対語があり<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ますか？<br>&nbsp;う。同義語も反対語<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;もありませんか？');
@@ -1190,7 +1200,7 @@ $(document).ready(mySetupFunction7);
 $(window).resize(mySetupFunction7);
 
 
-/* JAVASCRIPT FOR FLIPPABLE PAGES */
+/* JAVASCRIPT FOR MEMENTOS */
 
 function flip1() {
   var x = document.getElementById("front1");
@@ -1333,3 +1343,44 @@ function unFlip8() {
   y.style.display = "none";
 }
 
+function flip10() {
+  var x = document.getElementById("front10");
+  var y = document.getElementById("back10-1");
+  x.style.display = "none";
+  y.style.display = "block";
+}
+
+function flipAgain10() {
+  var x = document.getElementById("back10-2");
+  var y = document.getElementById("back10-1");
+  x.style.display = "block";
+  y.style.display = "none";
+}
+
+function flipThirdTime10() {
+  var x = document.getElementById("back10-3");
+  var y = document.getElementById("back10-2");
+  x.style.display = "block";
+  y.style.display = "none";
+}
+
+function flipFourthTime10() {
+  var x = document.getElementById("back10-4");
+  var y = document.getElementById("back10-3");
+  x.style.display = "block";
+  y.style.display = "none";
+}
+
+function flipFifthTime10() {
+  var x = document.getElementById("back10-5");
+  var y = document.getElementById("back10-4");
+  x.style.display = "block";
+  y.style.display = "none";
+}
+
+function unFlip10() {
+  var x = document.getElementById("front10");
+  var y = document.getElementById("back10-5");
+  x.style.display = "block";
+  y.style.display = "none";
+}
