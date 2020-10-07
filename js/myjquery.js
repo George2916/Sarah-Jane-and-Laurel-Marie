@@ -272,7 +272,7 @@ $(document).ready(function(){
             $('#hiddenSJ-2').html('&nbsp;football and <br>&nbsp;women\'s <br>&nbsp;soccer<span style=color:#f9d5e5>&nbsp;/&nbsp;</span><br>&nbsp;ice skating').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 1000, 'linear');
             $('#hiddenSJ-3').html('&nbsp;I Am No. 4<span style=color:#f9d5e5>&nbsp;/&nbsp;</span><br>&nbsp;Frankenstein').css({'background-color': '#e06377','opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 1500, 'linear');
             $('#hiddenSJ-4').html ('&nbsp;Pitch <br>&nbsp;Perfect <br>&nbsp;(10X)<span style=color:#f9d5e5>&nbsp;/&nbsp;</span><br>&nbsp;Harry Potter<br>&nbsp;movies <br>&nbsp;(18X)').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 2000, 'linear');
-            $('#hiddenSJ-5').html ('&nbsp;50 m<span style=color:#f9d5e5>&nbsp;/&nbsp;</span><br>&nbsp;50 m').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 2500, 'linear');
+            $('#hiddenSJ-5').html ('&nbsp;<50 miles<span style=color:#f9d5e5>&nbsp;/&nbsp;</span><br>&nbsp;>50 miles').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 2500, 'linear');
             $('#hiddenSJ-6').html('&nbsp;21-30 y<span style=color:#f9d5e5>&nbsp;/&nbsp;</span>will<br>&nbsp;not marry').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 3000, 'linear');
             $('#hiddenSJ-7').html('&nbsp;3-4<span style=color:#f9d5e5>&nbsp;/&nbsp;</span>6 <br>&nbsp;adopted').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 3500, 'linear');
             $('#hiddenSJ-8').html('&nbsp;math or <br>&nbsp;writing<span style=color:#f9d5e5>&nbsp;/&nbsp;</span><br>&nbsp;political <br>&nbsp;science').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 4000, 'linear');
@@ -404,7 +404,7 @@ $(document).ready(function(){
             $('#hiddenLM-1').html('&nbsp;soccer<span style=color:#f9d5e5>&nbsp;/&nbsp;</span><br>&nbsp;soccer').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible', 'font-size': '1.0em', 'font-family': 'Arial'}).animate({opacity: 1}, 500, 'linear');
             $('#hiddenLM-2').html('&nbsp;football<span style=color:#f9d5e5>&nbsp;/&nbsp;</span><br>&nbsp;soccer').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 1000, 'linear');
             $('#hiddenLM-3').html('&nbsp;Abduction <br><span style=color:#f9d5e5>&nbsp;/&nbsp;</span><q>I don\'t <br>&nbsp;read <br>&nbsp;books</q>').css({'background-color': '#e06377','opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 1500, 'linear');
-            $('#hiddenLM-4').html('&nbsp;Hunger<br>&nbsp;Games&nbsp;<span style=color:#f9d5e5>&nbsp;/&nbsp;</span><br>&nbsp;The <br>&nbsp;Princess <br>&nbsp;and the <br>&nbsp;Pauper <br>&nbsp;(20X)').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 2000, 'linear');
+            $('#hiddenLM-4').html('&nbsp;Hunger<br>&nbsp;Games<br>&nbsp;(5x)&nbsp;<span style=color:#f9d5e5>&nbsp;/&nbsp;</span><br>&nbsp;The <br>&nbsp;Princess <br>&nbsp;and the <br>&nbsp;Pauper <br>&nbsp;(20X)').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 2000, 'linear');
             $('#hiddenLM-5').html ('&nbsp;< 50 m<span style=color:#f9d5e5>&nbsp;/&nbsp;</span><br>&nbsp;> 50 m').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 2500, 'linear');
             $('#hiddenLM-6').html('&nbsp;21-30 y<span style=color:#f9d5e5>&nbsp;/&nbsp;</span><br>&nbsp26-30 y').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 3000, 'linear');
             $('#hiddenLM-7').html('&nbsp;2 <br>&nbsp;biological<br>&nbsp;and 2<br>&nbsp;adopted<span style=color:#f9d5e5>&nbsp;/&nbsp;</span><br>&nbsp;3-4').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 3500, 'linear');
@@ -424,7 +424,7 @@ $(document).ready(function(){
             $('#hiddenLM-2').html('&nbsp;football<span style=color:#f9d5e5>&nbsp;/&nbsp;</span><br>&nbsp;soccer').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 1000, 'linear');
             $('#hiddenLM-3').html('&nbsp;Abduction<span style=color:#f9d5e5>&nbsp;/&nbsp;</span><br>&nbsp;<q>I don\'t <br>&nbsp;read <br>&nbsp;books</q>').css({'background-color': '#e06377','opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 1500, 'linear');
             $('#hiddenLM-4').html('&nbsp;Hunger<br>&nbsp;Games<br>&nbsp;(5X)<span style=color:#f9d5e5>&nbsp;/&nbsp;</span>The <br>&nbsp;Princess <br>&nbsp;and the <br>&nbsp;Pauper <br>&nbsp;(20X)').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 2000, 'linear');
-            $('#hiddenLM-5').html ('&nbsp;< 50 m<span style=color:#f9d5e5>&nbsp;/&nbsp;</span><br>&nbsp;> 50 m').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 2500, 'linear');
+            $('#hiddenLM-5').html ('&nbsp;< 50 miles<span style=color:#f9d5e5>&nbsp;/&nbsp;</span><br>&nbsp;> 50 miles').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 2500, 'linear');
             $('#hiddenLM-6').html('&nbsp;21-30 y<span style=color:#f9d5e5>&nbsp;/&nbsp;</span><br>&nbsp;26-30 y').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 3000, 'linear');
             $('#hiddenLM-7').html('&nbsp;2 biological<br>&nbsp;and 2<br>&nbsp;adopted<span style=color:#f9d5e5>&nbsp;/&nbsp;</span><br>&nbsp;3-4').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 3500, 'linear');
             $('#hiddenLM-8').html('&nbsp;sports<span style=color:#f9d5e5>&nbsp;/&nbsp;</span><br>&nbsp;medicine').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 4000, 'linear');
@@ -720,7 +720,7 @@ $(document).ready(function(){
          else if ($(window).width() <=480) {
              $(this).css('background-color', '#e06377').html('サラ・<br>ジェーン');
              $('#hiddenSJJ-1').html('&nbsp;サッカー<span style=color:#f9d5e5>&nbsp;/&nbsp;</span>&nbsp;<br>&nbsp;サッカー').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible', 'font-size': '1.0em', 'font-family': 'Arial'}).animate({opacity: 1}, 500, 'linear'); 
-            $('#hiddenSJJ-2').html('&nbsp;女��サッカ<br>&nbsp;ーとアメリ<br>&nbsp;カンフット<br>&nbsp;ボール&nbsp;<span style=color:#f9d5e5>&nbsp;/&nbsp;</span><br>&nbsp;アイススケ<br>&nbsp;ーティング').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 1000, 'linear');
+            $('#hiddenSJJ-2').html('&nbsp;女子サッカ<br>&nbsp;ーとアメリ<br>&nbsp;カンフット<br>&nbsp;ボール&nbsp;<span style=color:#f9d5e5>&nbsp;/&nbsp;</span><br>&nbsp;アイススケ<br>&nbsp;ーティング').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 1000, 'linear');
             $('#hiddenSJJ-3').html('&nbsp;I Am No. 4&nbsp;<span style=color:#f9d5e5>&nbsp;/&nbsp;</span><br>&nbsp;Frankenstein').css({'background-color': '#e06377','opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 1500, 'linear');
             $('#hiddenSJJ-4').html('&nbsp;Pitch<br>&nbsp;Perfect&nbsp;<br>&nbsp;(10回)&nbsp;<span style=color:#f9d5e5>&nbsp;/&nbsp;</span><br>&nbsp;Harry Potter<br>&nbsp;movies<br>&nbsp;(18回)').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 2000, 'linear');
             $('#hiddenSJJ-5').html ('&nbsp;< 50&nbsp;<span style=color:#f9d5e5>&nbsp;/&nbsp;</span>&nbsp;> 50').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 2500, 'linear');
@@ -747,7 +747,7 @@ $(document).ready(function(){
             $('#hiddenSJJ-2').html('&nbsp;女子サッカー<br>&nbsp;とアメリカン<br>&nbsp;フットボール&nbsp;<span style=color:#f9d5e5>&nbsp;/&nbsp;</span><br>&nbsp;アイススケー<br>&nbsp;ティング').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 1000, 'linear');
             $('#hiddenSJJ-3').html('&nbsp;I Am No. 4&nbsp;<span style=color:#f9d5e5>&nbsp;/&nbsp;</span><br>&nbsp;Frankenstein').css({'background-color': '#e06377','opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 1500, 'linear');
             $('#hiddenSJJ-4').html('&nbsp;Pitch<br>&nbsp;Perfect&nbsp;(10回)&nbsp;<br>&nbsp;<span style=color:#f9d5e5>&nbsp;/&nbsp;</span>&nbsp;Harry Potter<br>&nbsp;movies (18回)').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 2000, 'linear');
-            $('#hiddenSJJ-5').html ('&nbsp;< 50&nbsp;<span style=color:#f9d5e5>&nbsp;/&nbsp;</span>&nbsp;> 50').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 2500, 'linear');
+            $('#hiddenSJJ-5').html ('&nbsp;あ&nbsp;<span style=color:#f9d5e5>&nbsp;/&nbsp;</span>&nbsp;い').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 2500, 'linear');
             $('#hiddenSJJ-6').html('&nbsp;21-30歳&nbsp;<span style=color:#f9d5e5>&nbsp;/&nbsp;</span><br>&nbsp;未婚主義').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 3000, 'linear');
             $('#hiddenSJJ-7').html('&nbsp;三人か四人&nbsp;<span style=color:#f9d5e5>&nbsp;/&nbsp;</span>&nbsp;<br>&nbsp;養子六人').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 3500, 'linear');
             $('#hiddenSJJ-8').html('&nbsp;理科系か書く<br>&nbspこと&nbsp;<span style=color:#f9d5e5>&nbsp;/&nbsp;</span>&nbsp;政治学').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 4000, 'linear');
@@ -773,7 +773,7 @@ $(document).ready(function(){
             $('#hiddenSJJ-2').html('&nbsp;女子サッカー<br>&nbsp;とアメリカン<br>&nbsp;フットボール&nbsp;<span style=color:#f9d5e5>&nbsp;/&nbsp;</span><br>&nbsp;アイススケー<br>&nbsp;ティング').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 1000, 'linear');
             $('#hiddenSJJ-3').html('&nbsp;I Am No. 4&nbsp;<span style=color:#f9d5e5>&nbsp;/&nbsp;</span><br>&nbsp;Frankenstein').css({'background-color': '#e06377','opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 1500, 'linear');
             $('#hiddenSJJ-4').html('&nbsp;Pitch Perfect (10回)<br>&nbsp;<span style=color:#f9d5e5>&nbsp;/&nbsp;</span>&nbsp;Harry Potter<br>&nbsp;movies (18回)').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 2000, 'linear');
-            $('#hiddenSJJ-5').html ('&nbsp;あ&nbsp;<span style=color:#f9d5e5>&nbsp;/&nbsp;</span>&nbsp;う').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 2500, 'linear');
+            $('#hiddenSJJ-5').html ('&nbsp;あ&nbsp;<span style=color:#f9d5e5>&nbsp;/&nbsp;</span>&nbsp;い').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 2500, 'linear');
             $('#hiddenSJJ-6').html('&nbsp;21-30歳&nbsp;<span style=color:#f9d5e5>&nbsp;/&nbsp;</span>&nbsp;未婚主義').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 3000, 'linear');
             $('#hiddenSJJ-7').html('&nbsp;三人か四人&nbsp;<span style=color:#f9d5e5>&nbsp;/&nbsp;</span>&nbsp;<br>&nbsp;養子六人').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 3500, 'linear');
             $('#hiddenSJJ-8').html('&nbsp;理科系か書くこと<br>&nbsp;<span style=color:#f9d5e5>&nbsp;/&nbsp;</span>&nbsp;政治学').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 4000, 'linear');
@@ -799,7 +799,7 @@ $(document).ready(function(){
             $('#hiddenSJJ-2').html('&nbsp;女子サッカーとアメリ<br>&nbsp;カンフットボール&nbsp;<span style=color:#f9d5e5>&nbsp;/&nbsp;</span><br>&nbsp;アイススケーティング').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 1000, 'linear');
             $('#hiddenSJJ-3').html('&nbsp;I Am No. 4&nbsp;<span style=color:#f9d5e5>&nbsp;/&nbsp;</span><br>&nbsp;Frankenstein').css({'background-color': '#e06377','opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 1500, 'linear');
             $('#hiddenSJJ-4').html('&nbsp;Pitch Perfect (10回)&nbsp;<span style=color:#f9d5e5>&nbsp;/&nbsp;</span>&nbsp;<br>&nbsp;Harry Potter movies<br>&nbsp;(18回)').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 2000, 'linear');
-            $('#hiddenSJJ-5').html ('&nbsp;あ&nbsp;<span style=color:#f9d5e5>&nbsp;/&nbsp;</span>&nbsp;う').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 2500, 'linear');
+            $('#hiddenSJJ-5').html ('&nbsp;あ&nbsp;<span style=color:#f9d5e5>&nbsp;/&nbsp;</span>&nbsp;い').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 2500, 'linear');
             $('#hiddenSJJ-6').html('&nbsp;21-30歳&nbsp;<span style=color:#f9d5e5>&nbsp;/&nbsp;</span>&nbsp;未婚主義').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 3000, 'linear');
             $('#hiddenSJJ-7').html('&nbsp;三人か四人&nbsp;<span style=color:#f9d5e5>&nbsp;/&nbsp;</span>&nbsp;養子六人').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 3500, 'linear');
             $('#hiddenSJJ-8').html('&nbsp;理科系か書くこと&nbsp;<span style=color:#f9d5e5>&nbsp;/&nbsp;</span><br>&nbsp;政治学').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 4000, 'linear');
@@ -825,7 +825,7 @@ $(document).ready(function(){
             $('#hiddenSJJ-2').html('&nbsp;女子サッカーとアメリ<br>&nbsp;カンフットボール&nbsp;<span style=color:#f9d5e5>&nbsp;/&nbsp;</span><br>&nbsp;アイススケーティング').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 1000, 'linear');
             $('#hiddenSJJ-3').html('&nbsp;I Am No. 4&nbsp;<span style=color:#f9d5e5>&nbsp;/&nbsp;</span><br>&nbsp;Frankenstein').css({'background-color': '#e06377','opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 1500, 'linear');
             $('#hiddenSJJ-4').html('&nbsp;Pitch Perfect (10回)&nbsp;<span style=color:#f9d5e5>&nbsp;/&nbsp;</span>&nbsp;<br>&nbsp;Harry Potter movies<br>&nbsp;(18回)').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 2000, 'linear');
-            $('#hiddenSJJ-5').html ('&nbsp;あ&nbsp;<span style=color:#f9d5e5>&nbsp;/&nbsp;</span>&nbsp;う').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 2500, 'linear');
+            $('#hiddenSJJ-5').html ('&nbsp;あ&nbsp;<span style=color:#f9d5e5>&nbsp;/&nbsp;</span>&nbsp;い').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 2500, 'linear');
             $('#hiddenSJJ-6').html('&nbsp;21-30歳&nbsp;<span style=color:#f9d5e5>&nbsp;/&nbsp;</span>&nbsp;未婚主義').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 3000, 'linear');
             $('#hiddenSJJ-7').html('&nbsp;三人か四人&nbsp;<span style=color:#f9d5e5>&nbsp;/&nbsp;</span>&nbsp;養子六人').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 3500, 'linear');
             $('#hiddenSJJ-8').html('&nbsp;理科系か書くこと&nbsp;<span style=color:#f9d5e5>&nbsp;/&nbsp;</span><br>&nbsp;政治学').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 4000, 'linear');
@@ -848,10 +848,10 @@ $(document).ready(function(){
         else {
             $(this).css('background-color', '#e06377').html('サラ・ジェーン');
             $('#hiddenSJJ-1').html('&nbsp;サッカー<span style=color:#f9d5e5>&nbsp;/&nbsp;</span>&nbsp;サッカー').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible', 'font-size': '1.0em', 'font-family': 'Arial'}).animate({opacity: 1}, 500, 'linear'); 
-            $('#hiddenSJJ-2').html('&nbsp女子サッカーとアメリカンフット<br>&nbsp;ボール&nbsp;<span style=color:#f9d5e5>&nbsp;/&nbsp;</span>&nbsp;ア��ススケーティング').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 1000, 'linear');
+            $('#hiddenSJJ-2').html('&nbsp女子サッカーとアメリカンフット<br>&nbsp;ボール&nbsp;<span style=color:#f9d5e5>&nbsp;/&nbsp;</span>&nbsp;アイススケーティング').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 1000, 'linear');
             $('#hiddenSJJ-3').html('&nbsp;I Am No. 4&nbsp;<span style=color:#f9d5e5>&nbsp;/&nbsp;</span>&nbsp;Frankenstein').css({'background-color': '#e06377','opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 1500, 'linear');
             $('#hiddenSJJ-4').html('&nbsp;Pitch Perfect (10回)&nbsp;<span style=color:#f9d5e5>&nbsp/&nbsp</span>&nbsp;Harry Potter&nbsp;<br>&nbsp;movies&nbsp;(18回)').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 2000, 'linear');
-             $('#hiddenSJJ-5').html ('&nbsp;あ&nbsp;<span style=color:#f9d5e5>&nbsp;/&nbsp;</span>&nbsp;う').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 2500, 'linear');
+             $('#hiddenSJJ-5').html ('&nbsp;あ&nbsp;<span style=color:#f9d5e5>&nbsp;/&nbsp;</span>&nbsp;い').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 2500, 'linear');
             $('#hiddenSJJ-6').html('&nbsp;21-30歳&nbsp;<span style=color:#f9d5e5>&nbsp;/&nbsp;</span>&nbsp;未婚主義').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 3000, 'linear');
             $('#hiddenSJJ-7').html('&nbsp;三人か四人&nbsp;<span style=color:#f9d5e5>&nbsp;/&nbsp;</span>&nbsp;養子六人').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 3500, 'linear');
             $('#hiddenSJJ-8').html('&nbsp;理科系か書くこと&nbsp;<span style=color:#f9d5e5>&nbsp;/&nbsp;</span>&nbsp;政治学').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 4000, 'linear');
@@ -867,14 +867,6 @@ $(document).ready(function(){
             $('#hiddenSJJ-23').html('&nbsp;2013年に質問が聞かなかった&nbsp;<span style=color:#f9d5e5>&nbsp;/&nbsp;</span>&nbsp;<br>&nbsp;ローレル').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 1500);
             $('#hiddenSJJ-24').html('&nbsp;2013年に質問が聞かなかった&nbsp;<span style=color:#f9d5e5>&nbsp;/&nbsp;</span>&nbsp;<br>&nbsp;1/16').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 1000);
             $('#hiddenSJJ-25').html('&nbsp;2013年に質問が聞かなかった&nbsp;<span style=color:#f9d5e5>&nbsp;/&nbsp;</span>&nbsp;<br>&nbsp;はい').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 500);
-            
-            
-            
-            
-            
-            
-            
-           
         }
         
         
@@ -952,8 +944,8 @@ $(document).ready(function(){
             $('#hiddenLMJ-2').html('&nbsp;アメリカン<br>&nbsp;フット&nbsp;<br>&nbsp;ボール&nbsp;<span style=color:#f9d5e5>&nbsp;/&nbsp;</span><br>&nbsp;サッカー').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 1000, 'linear');
              $('#hiddenLMJ-3').html('&nbsp;Abduction&nbsp;<span style=color:#f9d5e5>&nbsp;/&nbsp;</span>&nbsp;<br>&nbsp;"本を読まない"&nbsp;').css({'background-color': '#e06377','opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 1500, 'linear');
              $('#hiddenLMJ-4').html('&nbsp;Hunger<br>&nbsp;Games (5回)&nbsp;<span style=color:#f9d5e5>&nbsp;/&nbsp;</span><br>&nbsp;The&nbsp;Princess&nbsp;<br>&nbsp;and the&nbsp;<br>&nbsp;Pauper&nbsp;(20回)').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 2000, 'linear');
-              $('#hiddenLMJ-5').html ('&nbsp;< 50&nbsp;<span style=color:#f9d5e5>&nbsp;/&nbsp;</span>&nbsp;> 50').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 2500, 'linear');
-              $('#hiddenLMJ-6').html('&nbsp;21-30歳&nbsp;<span style=color:#f9d5e5>&nbsp;/&nbsp;</span>&nbsp;<br>&nbsp;26-30歳').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 3000, 'linear');
+              $('#hiddenLMJ-5').html ('&nbsp;あ&nbsp;<span style=color:#f9d5e5>&nbsp;/&nbsp;</span>&nbsp;い').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 2500, 'linear');
+              $('#hiddenLMJ-6').html('&nbsp;21-30歳&nbsp;<span style=color:#f9d5e5>&nbsp;/&nbsp;</span>&nbsp;う').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 3000, 'linear');
              $('#hiddenLMJ-7').html('&nbsp;実子二人と<br>&nbsp;養子二人&nbsp;<span style=color:#f9d5e5>&nbsp;/&nbsp;</span>&nbsp;<br>&nbsp;三人か四人').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 3500, 'linear');
             $('#hiddenLMJ-8').html('&nbsp;スポーツ&nbsp;<span style=color:#f9d5e5>&nbsp;/&nbsp;</span>&nbsp;<br>&nbsp;医療関係&nbsp;<br>&nbsp;の仕事').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 4000, 'linear');
             $('#hiddenLMJ-9').html('&nbsp;いいえ&nbsp;<span style=color:#f9d5e5>&nbsp;/&nbsp;</span>&nbsp;<br>&nbsp;いいえ').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 4500, 'linear');
@@ -981,7 +973,7 @@ $(document).ready(function(){
             $('#hiddenLMJ-2').html('&nbsp;アメリカン<br>&nbsp;フットボール&nbsp;<span style=color:#f9d5e5>&nbsp;/&nbsp;</span><br>&nbsp;サッカー').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 1000, 'linear');
              $('#hiddenLMJ-3').html('&nbsp;Abduction&nbsp;<span style=color:#f9d5e5>&nbsp;/&nbsp;</span>&nbsp;<br>&nbsp;"本を読まない"&nbsp;').css({'background-color': '#e06377','opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 1500, 'linear');
              $('#hiddenLMJ-4').html('&nbsp;Hunger Games <br>&nbsp;(5回)&nbsp;<span style=color:#f9d5e5>&nbsp;/&nbsp;</span>&nbsp;The&nbsp;Princess&nbsp;<br>&nbsp;and the Pauper&nbsp;<br>&nbsp;(20回)').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 2000, 'linear');
-              $('#hiddenLMJ-5').html ('&nbsp;あ&nbsp;<span style=color:#f9d5e5>&nbsp;/&nbsp;</span>&nbsp;う').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 2500, 'linear');
+              $('#hiddenLMJ-5').html ('&nbsp;あ&nbsp;<span style=color:#f9d5e5>&nbsp;/&nbsp;</span>&nbsp;い').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 2500, 'linear');
               $('#hiddenLMJ-6').html('&nbsp;21-30歳&nbsp;<span style=color:#f9d5e5>&nbsp;/&nbsp;</span>&nbsp;う').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 3000, 'linear');
               $('#hiddenLMJ-7').html('&nbsp;実子二人と養子<br>&nbsp;二人&nbsp;<span style=color:#f9d5e5>&nbsp;/&nbsp;</span>&nbsp;三人か四人').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 3500, 'linear');
             $('#hiddenLMJ-8').html('&nbsp;スポーツ&nbsp;<span style=color:#f9d5e5>&nbsp;/&nbsp;</span>&nbsp;<br>&nbsp;医療関係の仕事').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 4000, 'linear');
@@ -998,7 +990,7 @@ $(document).ready(function(){
             $('#hiddenLMJ-22').html('&nbsp;2013年に質問が&nbsp;<br>&nbsp;聞かなかった&nbsp;<span style=color:#f9d5e5>&nbsp;/&nbsp;</span>&nbsp;<br>&nbsp;ローレル').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 2000);
             $('#hiddenLMJ-23').html('&nbsp;2013年に質問が&nbsp;<br>&nbsp;聞かなかった&nbsp;<span style=color:#f9d5e5>&nbsp;/&nbsp;</span>&nbsp;<br>&nbsp;ローレル').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 1500);
             $('#hiddenLMJ-24').html('&nbsp;2013年に質問が&nbsp;<br>&nbsp;聞かなかった&nbsp;<span style=color:#f9d5e5>&nbsp;/&nbsp;</span>&nbsp;<br>&nbsp;7%').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 1000);
-            $('#hiddenLMJ-25').html('&nbsp;2013年に質問が&nbsp;<br>&nbsp;聞かな���った&nbsp;<span style=color:#f9d5e5>&nbsp;/&nbsp;</span>&nbsp;<br>&nbsp;はい').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 500);
+            $('#hiddenLMJ-25').html('&nbsp;2013年に質問が&nbsp;<br>&nbsp;聞かなかった&nbsp;<span style=color:#f9d5e5>&nbsp;/&nbsp;</span>&nbsp;<br>&nbsp;はい').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 500);
             
             
         }
@@ -1009,7 +1001,7 @@ $(document).ready(function(){
             $('#hiddenLMJ-2').html('&nbsp;アメリカン<br>&nbsp;フットボール&nbsp;<span style=color:#f9d5e5>&nbsp;/&nbsp;</span><br>&nbsp;サッカー').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 1000, 'linear');
              $('#hiddenLMJ-3').html('&nbsp;Abduction&nbsp;<span style=color:#f9d5e5>&nbsp;/&nbsp;</span>&nbsp;<br>&nbsp;"本を読まない"&nbsp;').css({'background-color': '#e06377','opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 1500, 'linear');
               $('#hiddenLMJ-4').html('&nbsp;Hunger Games (5回)&nbsp;<span style=color:#f9d5e5>&nbsp;/&nbsp;</span>&nbsp;<br>&nbsp;The&nbsp;Princess and the&nbsp;<br>&nbsp;Pauper&nbsp;(20回)').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 2000, 'linear');
-              $('#hiddenLMJ-5').html ('&nbsp;あ&nbsp;<span style=color:#f9d5e5>&nbsp;/&nbsp;</span>&nbsp;う').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 2500, 'linear');
+              $('#hiddenLMJ-5').html ('&nbsp;あ&nbsp;<span style=color:#f9d5e5>&nbsp;/&nbsp;</span>&nbsp;い').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 2500, 'linear');
               $('#hiddenLMJ-6').html('&nbsp;21-30歳&nbsp;<span style=color:#f9d5e5>&nbsp;/&nbsp;</span>&nbsp;う').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 3000, 'linear');
               $('#hiddenLMJ-7').html('&nbsp;実子二人と養子二人&nbsp;<span style=color:#f9d5e5>&nbsp;/&nbsp;</span>&nbsp;<br>&nbsp;三人か四人').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 3500, 'linear');
                 $('#hiddenLMJ-8').html('&nbsp;スポーツ&nbsp;<span style=color:#f9d5e5>&nbsp;/&nbsp;</span>&nbsp;<br>&nbsp;医療関係の仕事').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 4000, 'linear');
@@ -1036,9 +1028,9 @@ $(document).ready(function(){
             $(this).css('background-color', '#e06377').html('ローレル・マリー');
             $('#hiddenLMJ-1').html('&nbsp;サッカー<span style=color:#f9d5e5>&nbsp;/&nbsp;</span>&nbsp;サッカー&nbsp;').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible', 'font-size': '1.0em', 'font-family': 'Arial'}).animate({opacity: 1}, 500, 'linear');
             $('#hiddenLMJ-2').html('&nbsp;アメリカンフット<br>&nbsp;ボール&nbsp;<span style=color:#f9d5e5>&nbsp;/&nbsp;</span>&nbsp;サッカー').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 1000, 'linear');
-             $('#hiddenLMJ-3').html('&nbsp;Abduction&nbsp;<span style=color:#f9d5e5>&nbsp;/&nbsp;</span>&nbsp;"本を&nbsp;<br>&nbsp;読まない"&nbsp;').css({'background-color': '#e06377','opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 1500, 'linear');
+             $('#hiddenLMJ-3').html('&nbsp;Abduction&nbsp;<span style=color:#f9d5e5>&nbsp;/&nbsp;</span>&nbsp;"本を読&nbsp;<br>&nbsp;読まない"&nbsp;').css({'background-color': '#e06377','opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 1500, 'linear');
              $('#hiddenLMJ-4').html('&nbsp;Hunger Games (5回)&nbsp;<span style=color:#f9d5e5>&nbsp;/&nbsp;</span>&nbsp;<br>&nbsp;The&nbsp;Princess and the&nbsp;<br>&nbsp;Pauper&nbsp;(20回)').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 2000, 'linear');
-              $('#hiddenLMJ-5').html ('&nbsp;あ&nbsp;<span style=color:#f9d5e5>&nbsp;/&nbsp;</span>&nbsp;う').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 2500, 'linear');
+              $('#hiddenLMJ-5').html ('&nbsp;あ&nbsp;<span style=color:#f9d5e5>&nbsp;/&nbsp;</span>&nbsp;い').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 2500, 'linear');
               $('#hiddenLMJ-6').html('&nbsp;21-30歳&nbsp;<span style=color:#f9d5e5>&nbsp;/&nbsp;</span>&nbsp;う').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 3000, 'linear');
               $('#hiddenLMJ-7').html('&nbsp;実子二人と養子二人&nbsp;<span style=color:#f9d5e5>&nbsp;/&nbsp;</span>&nbsp;<br>&nbsp;三人か四人').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 3500, 'linear');
                 $('#hiddenLMJ-8').html('&nbsp;スポーツ&nbsp;<span style=color:#f9d5e5>&nbsp;/&nbsp;</span>&nbsp;医療関係&nbsp;<br>&nbsp;の仕事').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 4000, 'linear');
@@ -1063,9 +1055,9 @@ $(document).ready(function(){
             $(this).css('background-color', '#e06377').html('ローレル・マリー');
              $('#hiddenLMJ-1').html('&nbsp;サッカー<span style=color:#f9d5e5>&nbsp;/&nbsp;</span>&nbsp;サッカー&nbsp;').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible', 'font-size': '1.0em', 'font-family': 'Arial'}).animate({opacity: 1}, 500, 'linear');
             $('#hiddenLMJ-2').html('&nbsp;アメリカンフットボール&nbsp;<span style=color:#f9d5e5>&nbsp;/&nbsp;</span>&nbsp;サッカー&nbsp;').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 1000, 'linear');
-             $('#hiddenLMJ-3').html('&nbsp;Abduction&nbsp;<span style=color:#f9d5e5>&nbsp;/&nbsp;</span>&nbsp;"本を読��ない"&nbsp;').css({'background-color': '#e06377','opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 1500, 'linear');
+             $('#hiddenLMJ-3').html('&nbsp;Abduction&nbsp;<span style=color:#f9d5e5>&nbsp;/&nbsp;</span>&nbsp;"本を読まない"&nbsp;').css({'background-color': '#e06377','opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 1500, 'linear');
              $('#hiddenLMJ-4').html('&nbsp;Hunger Games (5回)&nbsp;<span style=color:#f9d5e5>&nbsp;/&nbsp;</span>&nbsp;&nbsp;The&nbsp;Princess&nbsp;<br>&nbsp;and the&nbsp;Pauper&nbsp;(20回)').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 2000, 'linear');
-              $('#hiddenLMJ-5').html ('&nbsp;あ&nbsp;<span style=color:#f9d5e5>&nbsp;/&nbsp;</span>&nbsp;う').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 2500, 'linear');
+              $('#hiddenLMJ-5').html ('&nbsp;あ&nbsp;<span style=color:#f9d5e5>&nbsp;/&nbsp;</span>&nbsp;い').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 2500, 'linear');
               $('#hiddenLMJ-6').html('&nbsp;21-30歳&nbsp;<span style=color:#f9d5e5>&nbsp;/&nbsp;</span>&nbsp;う').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 3000, 'linear');
               $('#hiddenLMJ-7').html('&nbsp;実子二人と養子二人&nbsp;<span style=color:#f9d5e5>&nbsp;/&nbsp;</span>&nbsp;三人か四人').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 3500, 'linear');
                 $('#hiddenLMJ-8').html('&nbsp;スポーツ&nbsp;<span style=color:#f9d5e5>&nbsp;/&nbsp;</span>&nbsp;医療関係&の仕事').css({'background-color': '#e06377', 'opacity': '0.0', 'visibility': 'visible'}).animate({opacity: 1}, 4000, 'linear');
@@ -1121,7 +1113,7 @@ function mySetupFunction7() {
          $('.question18Jap').html('&nbsp;将来、外国で働き<br>&nbsp;ますか？');
          $('.question19Jap').html('&nbsp;将来、スカイダイビ<br>&nbsp;ングをしますか？');
          $('.question20Jap').html('&nbsp;将来、合唱団に入り<br>&nbsp;ますか？');
-         $('.question21Jap').html('&nbsp;RESENT/RESERVE<br>&nbsp;この言葉に<br>&nbsp;あ。同義語があり<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ますか？<br>&nbsp;い。反対語があり<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ますか？<br>&nbsp;う。同義語も反対語<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;もありません<br>&nbsp;う。同義語も反対語<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;か？');
+         $('.question21Jap').html('&nbsp;RESENT/RESERVE<br>&nbsp;この言葉に<br>&nbsp;あ。同義語があり<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ますか？<br>&nbsp;い。反対語があり<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ますか？<br>&nbsp;う。同義語も反対語<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;もありません<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;か？');
          $('.question22Jap').html('&nbsp;兄妹の中で誰が一番<br>&nbsp;先に結婚するか？');
          $('.question23Jap').html('&nbsp;兄妹の中で誰が一最<br>&nbsp;後結婚するか？');
          $('.question24Jap').html('&nbsp;あなたのパナマの遺<br>&nbsp;伝子は何パーセント<br>&nbsp;ですか？(正しい<br>&nbsp;答えは6.25%か<br>&nbsp;1/16。)');
@@ -1148,7 +1140,7 @@ function mySetupFunction7() {
          $('.question15Jap').html('&nbsp;どの外国に一番行き<br>&nbsp;たいですか？');
          $('.question16Jap').html('&nbsp;将来、演劇の舞台に<br>&nbsp;立ちますか？');
          $('.question17Jap').html('&nbsp;将来、都会に住み<br>&nbsp;ますか？');
-         $('.question18Jap').html('&nbsp;将来、外国で���き<br>&nbsp;ますか？');
+         $('.question18Jap').html('&nbsp;将来、外国で働き<br>&nbsp;ますか？');
          $('.question19Jap').html('&nbsp;将来、スカイダイビン<br>&nbsp;グをしますか？');
          $('.question20Jap').html('&nbsp;将来、合唱団に入り<br>&nbsp;ますか？');
          $('.question21Jap').html('&nbsp;RESENT/RESERVE<br>&nbsp;この言葉に<br>&nbsp;あ。同義語があり<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ますか？<br>&nbsp;い。反対語があり<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ますか？<br>&nbsp;う。同義語も反対語<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;もありませんか？');
@@ -1172,10 +1164,9 @@ function mySetupFunction7() {
          $('.question23Jap').html('&nbsp;兄妹の中で誰が一最後結婚する<br>&nbsp;か？');
          $('.question24Jap').html('&nbsp;あなたのパナマの遺伝子は何<br>&nbsp;パーセントですか？(正しい<br>&nbsp;答えは6.25%か1/16。)');
          $('.question25Jap').html('&nbsp;いつかシェイクスピアの本を<br>&nbsp;完読しますか？');
-           
     }
     
-    else if ($(window).width() <=767) {
+    else if ($(window).width() <=767){
          $('.question5Jap').html('&nbsp;家から大学まで何マイルぐらい<br>&nbsp;だと思いますか？<br>&nbsp;あ。50マイル以下<br>&nbsp;い。50マイル以上');
          $('.question8Jap').html('&nbsp;将来、どのキャリアにつくつもり<br>&nbsp;ですか？');
           $('.question10Jap').html('&nbsp;将来、アフリカに行くつもりですか？');
@@ -1383,4 +1374,48 @@ function unFlip10() {
   var y = document.getElementById("back10-5");
   x.style.display = "block";
   y.style.display = "none";
+}
+
+function flip12() {
+  var x = document.getElementById("front12");
+  var y = document.getElementById("back12");
+  x.style.display = "none";
+  y.style.display = "block";
+  var z = document.getElementById("front13");
+  var a = document.getElementById("back13");
+  z.style.display = "none";
+  a.style.display = "block";
+}
+
+function unFlip12() {
+  var x = document.getElementById("front12");
+  var y = document.getElementById("back12");
+  x.style.display = "block";
+  y.style.display = "none";
+  var z = document.getElementById("front13");
+  var a = document.getElementById("back13");
+  z.style.display = "block";
+  a.style.display = "none";
+}
+
+function flip13() {
+  var x = document.getElementById("front13");
+  var y = document.getElementById("back13");
+  x.style.display = "none";
+  y.style.display = "block";
+  var z = document.getElementById("front12");
+  var a = document.getElementById("back12");
+  z.style.display = "none";
+  a.style.display = "block";
+}
+
+function unFlip13() {
+  var x = document.getElementById("front13");
+  var y = document.getElementById("back13");
+  x.style.display = "block";
+  y.style.display = "none";
+  var z = document.getElementById("front12");
+  var a = document.getElementById("back12");
+  z.style.display = "block";
+  a.style.display = "none";
 }
