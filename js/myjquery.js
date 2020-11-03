@@ -1419,3 +1419,18 @@ function unFlip13() {
   z.style.display = "block";
   a.style.display = "none";
 }
+
+function flip14() {
+  var x = document.getElementById("front14");
+  var y = document.getElementById("back14");
+  x.style.display = "none";
+  y.style.display = "block";
+}
+
+function unFlip14() {
+  var x = document.getElementById("front14");
+  var y = document.getElementById("back14");
+  x.style.display = "block";
+  y.style.display = "none";
+}
+

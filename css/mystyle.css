@@ -825,6 +825,24 @@ red: #c83349
   cursor: grab;
 }
 
+#front14{
+  transform: rotate(3deg);
+}
+
+#front14:hover{
+  transform: rotate(0deg);
+  cursor: grab;
+}
+    
+#back14{
+  transform: rotate(3deg);
+}
+
+#back14:hover{
+  transform: rotate(0deg);
+  cursor: grab;
+}
+
 
 
 /* STYLING FOR QUOTES.HTML */
