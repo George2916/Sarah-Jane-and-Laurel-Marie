@@ -10,7 +10,6 @@ red: #c83349
 
 */
 
-
 /* JQUERY FOR NAV BAR */
 
 /* Change color of tab of current webpage from very light brown to lilac when Gallery tab is clicked on; change background color and color of text in listed items in dropdown menu under Gallery when hovered over; and change tab of current webpage back to very light brown when dropdown menu under Gallery is closed */
@@ -1434,24 +1433,18 @@ function unFlip14() {
   y.style.display = "none";
 }
 
-/* JAVASCRIPT FOR SONNET BY SHAKESPEARE */
+/* JAVASCRIPT FOR HOME PAGE */
 
-function sonnetFunction1() {
+function jumboFunction() {
     
     if (window.matchMedia('(max-width: 767px)').matches) {
-     
-    document.getElementById('inEternal').style.fontSize = '150%';
+        document.getElementById('coverpageHeading').style.fontSize = '120%';
     }
     
     else {
-     
-    document.getElementById('inEternal').style.fontSize = '100%';
-    
+        document.getElementById('coverpageHeading').style.fontSize = '100%';
     }
     
 }
 
-sonnetFunction1();
-
-
-
+jumboFunction();

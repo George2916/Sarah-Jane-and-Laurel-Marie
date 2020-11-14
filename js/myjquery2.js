@@ -1,18 +1,18 @@
 /* JAVASCRIPT FOR SONNET BY SHAKESPEARE */
 
-function sonnetFunction2() {
+function sonnetFunction1() {
     
     if (window.matchMedia('(max-width: 767px)').matches) {
      
-    document.getElementById('owst').style.fontSize = '150%';
+    document.getElementById('inEternal').style.fontSize = '150%';
     }
     
     else {
      
-    document.getElementById('owst').style.fontSize = '100%';
+    document.getElementById('inEternal').style.fontSize = '100%';
     
     }
     
 }
 
-sonnetFunction2();
+sonnetFunction1();
