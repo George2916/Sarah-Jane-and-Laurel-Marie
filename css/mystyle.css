@@ -10,7 +10,6 @@ red: #c83349
 
 */
 
-
 /* STYLING FOR NAV BAR */
 
 /* give the nav bar square corners, instead of the default rounded corners */
@@ -252,6 +251,10 @@ red: #c83349
     background-color: #e06377;
     height: 110px;
     padding-top: 10px;
+}
+
+.noPad {margin-right: 0px;
+    margin-left: 0px;
 }
 
 /* STYLING FOR THE FAMILYTREEM.HTML AND FAMILYTREET.HTML DOCS */
@@ -884,3 +887,5 @@ red: #c83349
     text-decoration: underline;
 }
 
+.noPad {margin-right: 0px;
+    margin-left: 0px;}
