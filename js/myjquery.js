@@ -98,7 +98,7 @@ $("div[id^='myModal']").each(function(){
 
 function mySetupFunction1() {
     
-     if ($(window).width() <= 572) {
+     if ($(window).width() <= 576) {
         $('.AAA').removeAttr('target');
         $('.box1').css('background-color', '#eeac99');
         $('.box2').css('background-color', '#e06377');
@@ -117,7 +117,7 @@ function mySetupFunction1() {
         
 }
     
-     else if ($(window).width() <= 745) {
+     else if ($(window).width() <= 767) {
         $('.AAA').removeAttr('target');
         $('.box1').css('background-color', '#eeac99');
         $('.box2').css('background-color', '#e06377');
@@ -146,8 +146,8 @@ function mySetupFunction1() {
         $('.box7').css('background-color', '#e06377');
         $('.box8').css({'background-color': '#eeac99', 'overflow': 'scroll'});
         $('.box8J').css('background-color', '#eeac99');
-        $('.box9').css({'background-color': '#eeac99', 'font-size': '94%', 'height': '200px'});
-        $('.box10').css({'background-color': '#e06377', 'height': '200px'});
+        $('.box9').css({'background-color': '#eeac99', 'font-size': '94%', 'height': '310px'});
+        $('.box10').css({'background-color': '#e06377', 'height': '310px'});
         $('.misc-link-1, .misc-link-4, .misc-link-5, .misc-link-9').css('color', '#c83349');
         $('.misc-link-2, .misc-link-3, .misc-link-6, .misc-link-7').css('color', '#f9d5e5');
         
@@ -163,8 +163,8 @@ function mySetupFunction1() {
         $('.box7').css('background-color', '#e06377');
         $('.box8').css({'background-color': '#eeac99', 'overflow': 'scroll'});
         $('.box8J').css('background-color', '#eeac99');
-        $('.box9').css({'background-color': '#eeac99', 'height': '200px'});
-        $('.box10').css({'background-color': '#e06377', 'height': '200px'});
+        $('.box9').css({'background-color': '#eeac99', 'height': '330px'});
+        $('.box10').css({'background-color': '#e06377', 'height': '330px'});
         $('.misc-link-1, .misc-link-4, .misc-link-5, .misc-link-9').css('color', '#c83349');
         $('.misc-link-2, .misc-link-3, .misc-link-6, .misc-link-7').css('color', '#f9d5e5');
         $('.last2lines').css('margin', '10px');
