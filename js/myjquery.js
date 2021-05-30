@@ -1442,7 +1442,7 @@ function jumboFunction() {
     }
     
     else {
-        document.getElementById('coverpageHeading').style.fontSize = '100%';
+        document.getElementById('coverpageHeading').style.fontSize = 'normal';
     }
     
 }
