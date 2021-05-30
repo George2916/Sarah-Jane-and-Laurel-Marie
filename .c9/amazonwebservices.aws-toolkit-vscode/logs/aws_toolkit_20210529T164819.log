@@ -1,0 +1,6 @@
+2021-05-29 16:48:19 [ERROR]: log level: info
+2021-05-29 16:48:19 [INFO]: Retrieving AWS endpoint data
+2021-05-29 16:48:19 [INFO]: OS:  Linux x64 4.14.231-173.361.amzn2.x86_64
+2021-05-29 16:48:19 [INFO]: AWS Cloud9 Extension Host Version:  1.42.0
+2021-05-29 16:48:19 [INFO]: AWS Toolkit Version:  1.25.0-1c2c5a28c7e5
+2021-05-29 16:48:20 [INFO]: telemetry cache not found: '/home/ec2-user/environment/.c9/amazonwebservices.aws-toolkit-vscode/telemetryCache'
