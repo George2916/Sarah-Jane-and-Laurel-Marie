@@ -110,10 +110,12 @@ function mySetupFunction1() {
         $('.box7').css({'background-color': '#eeac99', 'overflow': 'scroll'});
         $('.box8').css({'background-color': '#e06377', 'overflow': 'scroll'});
         $('.box8J').css('background-color', '#e06377');
-        $('.box9').css({'background-color': '#eeac99', 'height': '200px', 'overflow': 'scroll'});
+        $('.box9').css('background-color', '#eeac99');
         $('.box10').css('background-color', '#e06377');
-        $('.misc-link-1, .misc-link-3, .misc-link-5, .misc-link-7, .misc-link-9').css('color', '#c83349');
-        $('.misc-link-2, .misc-link-4, .misc-link-6').css('color', '#f9d5e5');
+        $('.box11').css({'background-color': '#eeac99', 'height': '200px', 'overflow': 'scroll'});
+        $('.box12').css('background-color', '#e06377');
+        $('.misc-link-1, .misc-link-3, .misc-link-5, .misc-link-7, .misc-link-9, .misc-link-11').css('color', '#c83349');
+        $('.misc-link-2, .misc-link-4, .misc-link-6, .misc-link-8, .misc-link-10').css('color', '#f9d5e5');
         
 }
     
@@ -129,10 +131,12 @@ function mySetupFunction1() {
         $('.box7').css('background-color', '#eeac99');
         $('.box8').css({'background-color': '#e06377', 'overflow': 'scroll'});
         $('.box8J').css('background-color', '#e06377');
-        $('.box9').css({'background-color': '#eeac99', 'height': '200px', 'overflow': 'scroll'});
+        $('.box9').css('background-color', '#eeac99');
         $('.box10').css('background-color', '#e06377');
-        $('.misc-link-1, .misc-link-3, .misc-link-5, .misc-link-7, .misc-link-9').css('color', '#c83349');
-        $('.misc-link-2, .misc-link-4, .misc-link-6').css('color', '#f9d5e5');
+        $('.box11').css({'background-color': '#eeac99', 'height': '200px', 'overflow': 'scroll'});
+        $('.box12').css('background-color', '#e06377');
+        $('.misc-link-1, .misc-link-3, .misc-link-5, .misc-link-7, .misc-link-9, .misc-link-11').css('color', '#c83349');
+        $('.misc-link-2, .misc-link-4, .misc-link-6, .misc-link-8, .misc-link-10').css('color', '#f9d5e5');
     }
       
     else if ($(window).width() <= 991){
@@ -146,10 +150,12 @@ function mySetupFunction1() {
         $('.box7').css('background-color', '#e06377');
         $('.box8').css({'background-color': '#eeac99', 'overflow': 'scroll'});
         $('.box8J').css('background-color', '#eeac99');
-        $('.box9').css({'background-color': '#eeac99', 'font-size': '94%', 'height': '310px'});
-        $('.box10').css({'background-color': '#e06377', 'height': '310px'});
-        $('.misc-link-1, .misc-link-4, .misc-link-5, .misc-link-9').css('color', '#c83349');
-        $('.misc-link-2, .misc-link-3, .misc-link-6, .misc-link-7').css('color', '#f9d5e5');
+        $('.box9').css('background-color', '#eeac99');
+        $('.box10').css('background-color', '#e06377');
+        $('.box11').css({'background-color': '#e06377', 'font-size': '94%', 'height': '310px'});
+        $('.box12').css({'background-color': '#eeac99', 'height': '310px'});
+        $('.misc-link-1, .misc-link-4, .misc-link-5, .misc-link-8, .misc-link-9').css('color', '#c83349');
+        $('.misc-link-2, .misc-link-3, .misc-link-6, .misc-link-7, .misc-link-10, .misc-link-11').css('color', '#f9d5e5');
         
         }
 
@@ -163,10 +169,12 @@ function mySetupFunction1() {
         $('.box7').css('background-color', '#e06377');
         $('.box8').css({'background-color': '#eeac99', 'overflow': 'scroll'});
         $('.box8J').css('background-color', '#eeac99');
-        $('.box9').css({'background-color': '#eeac99', 'height': '330px'});
-        $('.box10').css({'background-color': '#e06377', 'height': '330px'});
-        $('.misc-link-1, .misc-link-4, .misc-link-5, .misc-link-9').css('color', '#c83349');
-        $('.misc-link-2, .misc-link-3, .misc-link-6, .misc-link-7').css('color', '#f9d5e5');
+        $('.box9').css('background-color', '#eeac99');
+        $('.box10').css('background-color', '#e06377');
+        $('.box11').css({'background-color': '#e06377', 'height': '330px'});
+        $('.box12').css({'background-color': '#eeac99', 'height': '330px'});
+        $('.misc-link-1, .misc-link-4, .misc-link-5, .misc-link-8, .misc-link-9').css('color', '#c83349');
+        $('.misc-link-2, .misc-link-3, .misc-link-6, .misc-link-7, .misc-link-10, .misc-link-11').css('color', '#f9d5e5');
         $('.last2lines').css('margin', '10px');
         }
 
