@@ -358,22 +358,6 @@ red: #c83349
     }
 }
 
-/* change the size of the modal for the fourgenerationsM photo when displayed in modal format */
-.fourgenerationsM-modal {
-        height: 620px;
-        width: 600px;
-}
-
-/* rotate the fourgenerationsM photo 90 degrees when it is displayed in modal format */
-.fourgenerationsM-modal img {
-    -ms-transform: rotate(90deg); /* IE 9 */
-    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
-    transform: rotate(90deg);
-    height: 450px;
-    position: absolute;
-    top: 80px;
-} 
-
 .withtext {
     text-align: center;
     border: 2px solid black;
