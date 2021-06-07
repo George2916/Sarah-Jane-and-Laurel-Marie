@@ -108,7 +108,7 @@ function mySetupFunction1() {
         $('.box6').css({'background-color': '#e06377', 'overflow': 'auto'});
         $('.box7').css({'background-color': '#eeac99', 'overflow': 'auto'});
         $('.box8').css({'background-color': '#e06377', 'overflow': 'auto'});
-        $('.box9').css('background-color', '#eeac99');
+        $('.box9').css({'background-color': '#eeac99', 'overflow': 'auto'});
         $('.box10').css('background-color', '#e06377');
         $('.box11').css({'background-color': '#eeac99', 'height': '200px', 'overflow': 'auto'});
         $('.box12').css('background-color', '#e06377');

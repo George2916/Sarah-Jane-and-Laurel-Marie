@@ -1,5 +1,6 @@
 /* JAVASCRIPT FOR SONNET BY SHAKESPEARE */
 
+
 function sonnetFunction3() {
     
     if (window.matchMedia('(max-width: 767px)').matches) {
@@ -16,3 +17,5 @@ function sonnetFunction3() {
 }
 
 sonnetFunction3();
+
+
