@@ -208,14 +208,14 @@ function mySetupFunction3() {
         $('#lmButton > .card_back').html('LM\'s responses').css('font-size', '92%');
     }
     
-    else if ($(window).width() <= 990) {
+    else if ($(window).width() <= 1000) {
         $('#sjButton > .card_front').html('Click here to see');
         $('#sjButton > .card_back').html('SJ\'s responses');
         $('#lmButton > .card_front').html('Click here to see');
         $('#lmButton > .card_back').html('LM\'s responses');
         
     }
-    else if ($(window).width() > 990) {
+    else if ($(window).width() > 1000) {
         $('#sjButton > .card_front').html('Click here to see');
         $('#sjButton > .card_back').html('Sarah Jane\'s responses');
         $('#lmButton > .card_front').html('Click here to see');
