@@ -3,6 +3,11 @@
         "@saveall": true
     },
     "extensions": {
+        "@aws.profile": "profile:default",
+        "@editor.acceptSuggestionOnEnter": "on",
+        "@editor.snippetSuggestions": "top",
+        "@editor.suggest.preview": true,
+        "@editor.suggest.showMethods": true,
         "@json.schemas": []
     },
     "instance": {
