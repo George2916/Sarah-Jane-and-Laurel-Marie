@@ -93,7 +93,6 @@ $("div[id^='myModal']").each(function(){
 
 });
 
-
 /* JQUERY FOR MISCELLANEOUS PAGE */
 
 function mySetupFunction1() {
@@ -189,6 +188,83 @@ $(window).resize(mySetupFunction1);
 
 $(document).ready(mySetupFunction2);
 $(window).resize(mySetupFunction2);
+
+/* JAVASCRIPT FOR MISCPHOTOS.HTML */
+
+/* activate Previous and Next buttons that appear in the modals */
+$("div[id^='photoModal']").each(function(){
+  
+  var currentModal = $(this);
+  
+  //click Next
+  currentModal.find('.btn-next').click(function(){
+    currentModal.modal('hide');
+    currentModal.closest("div[id^='photoModal']").nextAll("div[id^='photoModal']").first().modal('show'); 
+  });
+  
+  //click Prev
+  currentModal.find('.btn-prev').click(function(){
+    currentModal.modal('hide');
+    currentModal.closest("div[id^='photoModal']").prevAll("div[id^='photoModal']").first().modal('show'); 
+  });
+
+});
+
+/* change layout of cards depending on screen size */
+
+function smpFunction() {
+    
+    const cards = document.querySelectorAll('.playingCard');
+    
+    const myElement1 = document.getElementById('playingCard1');
+    const myElement2 = document.getElementById('playingCard2');
+    const myElement3 = document.getElementById('playingCard3');
+
+    if (window.matchMedia('(max-width: 992px)').matches) {
+   
+        cards.forEach(item => {
+            item.style.width = '400px';
+            item.style.height = '480px';
+            item.style.display = 'block';
+            item.style.marginLeft = 'auto';
+            item.style.marginRight = 'auto';
+        }); 
+        
+        myElement1.style.transform = 'rotate(-0deg)';
+        myElement2.style.transform = 'rotate(0deg)';
+        myElement3.style.transform = 'rotate(0deg)';
+            
+    }
+    
+    else {
+        cards.forEach(item => {
+            item.style.width = '300px';
+            item.style.height = '480px';
+            item.style.display = 'flex';
+            //item.style.marginLeft = 'auto';
+            //item.style.marginRight = 'auto';
+        });
+        
+        
+    }   
+}
+
+smpFunction();
+
+  
+  
+  /*myElement2.style.transform = 'rotate(0deg)';
+        myElement2.style.transform = 'translateY(-25px)';
+        myElement2.style.transformOrigin = 'bottom';*/
+        
+  
+  
+
+    
+    
+
+
+
 
 
 /*  JQUERY FOR QUESTIONNAIRE */

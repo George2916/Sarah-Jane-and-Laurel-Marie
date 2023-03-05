@@ -873,5 +873,128 @@ red: #c83349
 
 .noPad {margin-right: 0px;
     margin-left: 0px;}
-    
-    
+
+/* STYLING FOR MISCPHOTOS.HTML */
+
+.SMPborder{
+    border-width: 10px 10px 10px 10px;
+    border-style: solid;
+    border-color: #f9d5e5;
+}
+
+.SMPheading{
+    background-color: #c83349;
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    color: #f9d5e5;
+    padding-bottom: 50px;
+}
+
+.SMPbackground{
+    border-width: 0px 10px 10px 10px;
+    border-style: solid;
+    border-color: #f9d5e5; 
+    background-color: #eeac99;
+    color: #c83349;
+    padding-bottom: 50px;
+}
+
+.playingCardHand {
+   display: flex;
+   justify-content: center;
+   margin-top: 32px;
+}
+
+.playingCard {
+    width: 300px;
+    height: 480px;
+    background-color: #f9d5e5;
+    border: 1px solid #c83349;
+    border-radius: 40px;
+    display: block;
+    font-family: 'Permanent Marker', cursive;
+    padding: 16px;
+    flex-direction: column;
+    margin: 0 -20px;
+    color: inherit;    
+    text-decoration: none; 
+}
+
+.playingCard:link {      
+    text-decoration: inherit;
+    color: inherit;
+}
+
+/* skewing of playingCards */
+
+#playingCard1{
+    transform:rotate(-6deg) translateY(0px);
+    transform-origin:bottom right;
+}
+
+#playingCard1:hover{
+    transform:rotate(-6deg) translateY(-30px);
+    transform-origin:bottom right;
+    cursor: grab;
+}
+
+.playingCard2 {      
+     transform: translateY(-30px);
+}
+
+#playingCard2:hover{
+    transform: rotate(0deg) translateY(-30px);
+    cursor: grab;
+}
+
+#playingCard3{
+    transform:rotate(6deg) translateY(0px);
+    transform-origin:bottom left;
+}
+
+#playingCard3:hover{
+    transform: rotate(6deg) translateY(-30px);
+    transform-origin:bottom left;
+    cursor: grab;
+}
+
+.playingCard-image {
+    display: block;
+    flex: auto;
+    margin: 40px 0;
+    overflow: hidden;
+    position: relative;
+    transform: skew(0, -6deg); 
+    width: 100%;
+}
+
+.photoModalContent {
+    background-color: #f9d5e5;
+}
+
+.photoModalTitle {
+    color: #c83349;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.SMPbtn {
+    background-color: #c83349;
+    color: #f9d5e5;
+}  
+
+.SMPbtn:hover {
+    background-color: #eeac99;
+    color: #c83349;
+}
+
+.SMPcloseBtn {
+    background-color: #c83349 !important;
+    color: #f9d5e5 !important;
+    opacity: 1 !important;
+    text-shadow: none !important;
+}
+
+.SMPcloseBtn:hover {
+    background-color: #eeac99 !important;
+    color: #c83349 !important;
+}
