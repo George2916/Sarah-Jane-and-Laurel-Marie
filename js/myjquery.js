@@ -219,8 +219,24 @@ function smpFunction() {
     const myElement1 = document.getElementById('playingCard1');
     const myElement2 = document.getElementById('playingCard2');
     const myElement3 = document.getElementById('playingCard3');
+    
+    if (window.matchMedia('(max-width: 500px)').matches) {
+   
+        cards.forEach(item => {
+            item.style.width = '300px';
+            item.style.height = '480px';
+            item.style.display = 'block';
+            item.style.marginLeft = 'auto';
+            item.style.marginRight = 'auto';
+        }); 
+        
+        myElement1.style.transform = 'rotate(-0deg)';
+        myElement2.style.transform = 'rotate(0deg)';
+        myElement3.style.transform = 'rotate(0deg)';
+            
+    }
 
-    if (window.matchMedia('(max-width: 992px)').matches) {
+    else if (window.matchMedia('(max-width: 992px)').matches) {
    
         cards.forEach(item => {
             item.style.width = '400px';
@@ -246,26 +262,11 @@ function smpFunction() {
         });
         
         
+        
     }   
 }
 
 smpFunction();
-
-  
-  
-  /*myElement2.style.transform = 'rotate(0deg)';
-        myElement2.style.transform = 'translateY(-25px)';
-        myElement2.style.transformOrigin = 'bottom';*/
-        
-  
-  
-
-    
-    
-
-
-
-
 
 /*  JQUERY FOR QUESTIONNAIRE */
 

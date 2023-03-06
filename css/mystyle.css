@@ -929,12 +929,12 @@ red: #c83349
 
 #playingCard1{
     transform:rotate(-6deg) translateY(0px);
-    transform-origin:bottom right;
+    transform-origin: bottom right;
 }
 
 #playingCard1:hover{
     transform:rotate(-6deg) translateY(-30px);
-    transform-origin:bottom right;
+    transform-origin: bottom right;
     cursor: grab;
 }
 
@@ -956,6 +956,18 @@ red: #c83349
     transform: rotate(6deg) translateY(-30px);
     transform-origin:bottom left;
     cursor: grab;
+}
+
+@media screen and (max-width: 992px) {
+  #playingCard1:hover {
+    padding-bottom: 30px;
+  }
+  #playingCard2:hover {
+    padding: 30px;
+  }
+  #playingCard3:hover {
+    padding-top: 30px;
+  }
 }
 
 .playingCard-image {
