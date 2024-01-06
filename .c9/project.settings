@@ -4,6 +4,7 @@
     },
     "extensions": {
         "@aws.profile": "profile:default",
+        "@aws.samcli.lambdaTimeout": 90000,
         "@editor.acceptSuggestionOnEnter": "on",
         "@editor.snippetSuggestions": "top",
         "@editor.suggest.preview": true,
