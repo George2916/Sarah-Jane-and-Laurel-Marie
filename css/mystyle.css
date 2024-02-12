@@ -159,7 +159,26 @@ red: #c83349
         padding-bottom: 20px;
     }
 }
-   
+
+.gallerySpecialFont {
+    transform: translateY(-50%);
+    font-family: 'Permanent Marker', cursive;
+}
+
+/* styling for modals */
+
+.modal-content {background: #e06377;}
+
+.btn-default {background: #c83349;
+    border: #c83349;
+}
+
+.btn-default:hover {background: #eeac99;}
+
+.modal-header {border-bottom: 1px solid #c83349;}
+
+.modal-footer {border-top: 1px solid #c83349;}
+
 /* change the size of the modals for images in the Gallery which are rotated when displayed in modal format */
 .gallery-rotate {
         height: 620px;
