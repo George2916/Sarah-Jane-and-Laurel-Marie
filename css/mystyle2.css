@@ -60,6 +60,12 @@
 
 .ances4 svg {overflow: visible;}
 
+.sticky {
+	position: sticky;
+	left: 0;
+	z-index: 10;
+}
+
 .marriageSign {
 	font-size: 225%;
 	letter-spacing: -6px;
