@@ -730,10 +730,6 @@ red: #c83349
   cursor: grab;
 }
 
-#front9{
-  transform: rotate(-3deg);
-}
-
 #front10{
   transform: rotate(2deg);
 }
@@ -850,6 +846,68 @@ red: #c83349
   cursor: grab;
 }
 
+#front15{
+  transform: rotate(3deg);
+}
+
+#front15:hover{
+  transform: rotate(0deg);
+  cursor: grab;
+}
+    
+#back15-1{
+  transform: rotate(3deg);
+}
+
+#back15-1:hover{
+  transform: rotate(0deg);
+  cursor: grab;
+}
+
+#back15-2{
+  transform: rotate(3deg);
+}
+
+#back15-2:hover{
+  transform: rotate(0deg);
+  cursor: grab;
+}
+
+#back15-3{
+  transform: rotate(3deg);
+}
+
+#back15-3:hover{
+  transform: rotate(0deg);
+  cursor: grab;
+}
+
+#front16{
+  transform: rotate(1deg);
+}
+
+#front16:hover{
+  transform: rotate(0deg);
+  cursor: grab;
+}
+    
+#back16-1{
+  transform: rotate(1deg);
+}
+
+#back16-1:hover{
+  transform: rotate(0deg);
+  cursor: grab;
+}
+
+#back16-2{
+  transform: rotate(1deg);
+}
+
+#back16-2:hover{
+  transform: rotate(0deg);
+  cursor: grab;
+}
 
 
 /* STYLING FOR QUOTES.HTML */

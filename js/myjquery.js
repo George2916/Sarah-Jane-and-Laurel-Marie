@@ -1517,6 +1517,54 @@ function unFlip14() {
   y.style.display = "none";
 }
 
+function flip15() {
+  var x = document.getElementById("front15");
+  var y = document.getElementById("back15-1");
+  x.style.display = "none";
+  y.style.display = "block";
+}
+
+function flipAgain15() {
+  var x = document.getElementById("back15-2");
+  var y = document.getElementById("back15-1");
+  x.style.display = "block";
+  y.style.display = "none";
+}
+
+function flipThirdTime15() {
+  var x = document.getElementById("back15-3");
+  var y = document.getElementById("back15-2");
+  x.style.display = "block";
+  y.style.display = "none";
+}
+
+function unFlip15() {
+  var x = document.getElementById("front15");
+  var y = document.getElementById("back15-3");
+  x.style.display = "block";
+  y.style.display = "none";
+}
+
+function flip16() {
+  var x = document.getElementById("front16");
+  var y = document.getElementById("back16-1");
+  x.style.display = "none";
+  y.style.display = "block";
+}
+
+function flipAgain16() {
+  var x = document.getElementById("back16-2");
+  var y = document.getElementById("back16-1");
+  x.style.display = "block";
+  y.style.display = "none";
+}
+
+function unFlip16() {
+  var x = document.getElementById("front16");
+  var y = document.getElementById("back16-2");
+  x.style.display = "block";
+  y.style.display = "none";
+}
 /* JAVASCRIPT FOR HOME PAGE */
 
 function jumboFunction() {
